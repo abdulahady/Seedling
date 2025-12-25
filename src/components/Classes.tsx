@@ -70,7 +70,7 @@ export function Classes() {
 
   return (
     <div id="top-of-page">
-      <StaticCard id={parseInt(id, 10)} />
+      {idList.length > 0 && <StaticCard id={idList[0]} />}
       {idList
         ?.filter((itemId) => itemId !== idList[0])
         .map((itemId) => <Accordion key={itemId} id={itemId} />)}
