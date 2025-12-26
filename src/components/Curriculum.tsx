@@ -130,6 +130,7 @@ const Curriculum: React.FC = () => {
             </tr>
           </thead>
           <tbody>
+            {/* row 1 */}
             <tr
               className="hover:cursor-pointer"
               onClick={() => handleRowClick('/classes/24', 'PHYS-165:')}
@@ -138,7 +139,7 @@ const Curriculum: React.FC = () => {
               <td>PHYS-165: Introductory Physics</td>
               <td>54%</td>
             </tr>
-            {/* row 1 */}
+            {/* row 2 */}
 
             <tr
               className="hover:cursor-pointer"
@@ -148,7 +149,7 @@ const Curriculum: React.FC = () => {
               <td>PHYS-101: Mechanics</td>
               <td>67%</td>
             </tr>
-            {/* row 2 */}
+            {/* row 3 */}
             <tr
               className="hover:cursor-pointer"
               onClick={() => handleRowClick('/classes/15', 'PHYS-102:')}
@@ -157,7 +158,7 @@ const Curriculum: React.FC = () => {
               <td>PHYS-102: Waves, Thermodynamics, Optics</td>
               <td>79%</td>
             </tr>
-            {/* row 3 */}
+            {/* row 4 */}
             <tr
               className="hover:cursor-pointer"
               onClick={() => handleRowClick('/classes/16', 'PHYS-103:')}
@@ -165,6 +166,51 @@ const Curriculum: React.FC = () => {
               <th>4</th>
               <td>PHYS-103: Electricity, Magnetism, and Modern Physics</td>
               <td>77%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 className="pt-6 pb-2 text-3xl font-semibold leading-snug text-gray-700">
+        Engineering
+      </h2>
+      <div className="overflow-x-auto">
+        <table className="table">
+          {/* head */}
+          <thead>
+            <tr className="hover">
+              <th></th>
+              <th>Name</th>
+              <th>Pass Rate</th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* row 1 */}
+            <tr
+              className="hover:cursor-pointer"
+              onClick={() => handleRowClick('/classes/25', 'ENGR-141:')}
+            >
+              <th>1</th>
+              <td>ENGR-141: Circuits</td>
+              <td>TBD</td>
+            </tr>
+            {/* row 2 */}
+
+            <tr
+              className="hover:cursor-pointer"
+              onClick={() => handleRowClick('/classes/26', 'ENGR-135:')}
+            >
+              <th>2</th>
+              <td>ENGR-135: Statics</td>
+              <td>TBD</td>
+            </tr>
+            {/* row 3 */}
+            <tr
+              className="hover:cursor-pointer"
+              onClick={() => handleRowClick('/classes/27', 'ENGR-130:')}
+            >
+              <th>3</th>
+              <td>ENGR-130: Properties Of Materials</td>
+              <td>TBD</td>
             </tr>
           </tbody>
         </table>
