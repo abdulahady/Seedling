@@ -46,6 +46,9 @@ export function Classes() {
     22: 'BOT-101',
     23: 'ZOOL-101',
     24: 'PHYS-165',
+    25: 'ENGR-141',
+    26: 'ENGR-135',
+    27: 'ENGR-130',
   }
 
   useEffect(() => {
