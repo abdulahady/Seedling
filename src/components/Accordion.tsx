@@ -36,7 +36,7 @@ const Accordion: React.FC<number> = ({ id }) => {
   const title = cardProps?.title || 'Loading...'
   const rawDocumentUrls = cardProps?.documentUrls
   const documentUrl = Array.isArray(rawDocumentUrls)
-    ? rawDocumentUrls[0]
+    ? rawDocumentUrls.find(Boolean)
     : rawDocumentUrls
 
   return (
@@ -53,6 +53,7 @@ const Accordion: React.FC<number> = ({ id }) => {
               id="classDocumentLink"
               href={documentUrl}
               target="_blank"
+              rel="noopener noreferrer"
               className=" text-black visited:text-gray-800 mb-10"
             >
               <div className="collapse-title text-xl font-medium ">
@@ -69,7 +70,19 @@ const Accordion: React.FC<number> = ({ id }) => {
         ) : (
           <div className="collapse-title text-xl font-medium">
             <i className="fas fa-angle-down mr-2"></i>
-            {title}
+            {documentUrl ? (
+              <a
+                id="classDocumentLink"
+                href={documentUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black visited:text-gray-800 underline decoration-emerald-600 underline-offset-4"
+              >
+                {title}
+              </a>
+            ) : (
+              title
+            )}
           </div>
         )}
 

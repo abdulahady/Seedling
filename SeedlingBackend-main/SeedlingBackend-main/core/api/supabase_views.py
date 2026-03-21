@@ -4,6 +4,12 @@ from django.views import View
 from .supabase_client import SupabaseApiError, build_public_asset_url, supabase_rest_get
 
 
+def _cached_json_response(data: dict, status: int, cache_control: str) -> JsonResponse:
+    response = JsonResponse(data, status=status)
+    response["Cache-Control"] = cache_control
+    return response
+
+
 def _normalize_block(block_row: dict) -> dict:
     block_type = block_row.get("block_type")
     block_value = block_row.get("block_value")
@@ -53,7 +59,11 @@ class SupabasePagesView(View):
             query_parts.append(f"tag=eq.{tag}")
 
         rows = supabase_rest_get("content_pages", "&".join(query_parts))
-        return JsonResponse({"items": rows}, status=200)
+        return _cached_json_response(
+            {"items": rows},
+            status=200,
+            cache_control="public, max-age=120, s-maxage=300, stale-while-revalidate=600",
+        )
 
     def _get_single_page(self, page_id):
         pages = supabase_rest_get(
@@ -68,7 +78,11 @@ class SupabasePagesView(View):
             f"select=block_type,block_value,block_order&page_id=eq.{page_id}&order=block_order.asc",
         )
         payload = _build_page_payload(pages[0], blocks)
-        return JsonResponse(payload, status=200)
+        return _cached_json_response(
+            payload,
+            status=200,
+            cache_control="public, max-age=300, s-maxage=900, stale-while-revalidate=1800",
+        )
 
 
 class SupabaseAssetView(View):
@@ -83,7 +97,7 @@ class SupabaseAssetView(View):
             if not rows:
                 return JsonResponse({"detail": "Not found."}, status=404)
             asset = rows[0]
-            return JsonResponse(
+            return _cached_json_response(
                 {
                     "id": asset.get("id"),
                     "meta": {
@@ -93,6 +107,7 @@ class SupabaseAssetView(View):
                     },
                 },
                 status=200,
+                cache_control="public, max-age=3600, s-maxage=86400, stale-while-revalidate=172800",
             )
         except SupabaseApiError as error:
             return JsonResponse({"error": str(error)}, status=500)

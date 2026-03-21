@@ -18,8 +18,12 @@ export function Classes() {
   const fetchAllPages = async (tag: string) => {
     try {
       const response = await ApiHandler.apiFetchTag(tag)
-      const list = response?.map((item) => item.id)
+      const list = response?.map((item) => item.id) || []
       console.log('<Classes.tsx> The ID list is: ', list)
+      // Warm page cache so StaticCard/Accordion mounts feel instant.
+      await Promise.allSettled(
+        list.map((itemId) => ApiHandler.apiFetchPage(itemId)),
+      )
       setIdList(list)
       setLoading(false)
     } catch (error) {
