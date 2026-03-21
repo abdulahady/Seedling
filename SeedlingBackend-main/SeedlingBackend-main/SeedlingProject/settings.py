@@ -20,7 +20,7 @@ env.read_env()
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(PROJECT_DIR)
 
-DEBUG = True
+DEBUG = env.bool("DEBUG", default=True)
 
 # Application definition
 
@@ -71,9 +71,7 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
 ]
 
-CORS_ALLOW_ALL_ORIGINS = (
-    True  # FIXME: for production, change to False and add frontend url
-)
+CORS_ALLOW_ALL_ORIGINS = env.bool("CORS_ALLOW_ALL_ORIGINS", default=True)
 
 CORS_ALLOW_HEADERS = [
     "accept",
@@ -200,14 +198,16 @@ REST_FRAMEWORK = {
     ]
 }
 
-# Hosts/domain names that are valid for this site; required if DEBUG is False
-# TODO: Put in environment variables FRONTEND_URL and BACKEND_URL
-ALLOWED_HOSTS = [
+allowed_hosts_default = [
     "seedlingfrontend-production.up.railway.app",
     "seedlingbackend-production.up.railway.app",
     "127.0.0.1",
+    "localhost",
 ]
-CORS_ORIGIN_ALLOW_ALL = True  # for development mode only
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=allowed_hosts_default)
+CORS_ORIGIN_ALLOW_ALL = CORS_ALLOW_ALL_ORIGINS
+if not CORS_ORIGIN_ALLOW_ALL:
+    CORS_ALLOWED_ORIGINS = env.list("CORS_ALLOWED_ORIGINS", default=[])
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = "change-me"
