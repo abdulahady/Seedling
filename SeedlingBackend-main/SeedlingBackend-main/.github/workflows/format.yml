@@ -1,0 +1,19 @@
+name: Code Formatting
+
+on: [push, pull_request]
+
+jobs:
+  formatting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          # Make sure the actual branch is checked out when running on pull requests
+          ref: ${{ github.head_ref }}
+
+      - name: Black Code Formatter
+        uses: lgeiger/black-action@v1.0.1
+        with:
+          args: ". --check"

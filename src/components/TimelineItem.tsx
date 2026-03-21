@@ -4,6 +4,7 @@ import SlideOutWrapper from './SlideOutWrapper'
 interface TimelineItemProps {
   icon: string | React.ReactNode // URL or React component
   content: React.ReactNode // Content of the timeline item
+  levelLabel?: string
   showConnectingLine?: boolean // Flag to show connecting line
   colorStart?: string // Start color for gradient
   colorEnd?: string // End color for gradient
@@ -12,9 +13,10 @@ interface TimelineItemProps {
 const TimelineItem: React.FC<TimelineItemProps> = ({
   icon,
   content,
+  levelLabel,
   showConnectingLine = false,
   colorStart = 'transparent', // Default colors for gradient
-  colorEnd = 'black',
+  colorEnd = '#1f8a4d',
 }) => {
   const isIconUrl = typeof icon === 'string'
 
@@ -40,7 +42,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
         <div
           className={
             isIconUrl
-              ? 'rounded-full p-2 bg-primary text-white'
+              ? 'rounded-full p-2 bg-emerald-600 text-white'
               : 'icon-component'
           }
         >
@@ -55,7 +57,14 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
       </div>
       {/* Content */}
       <SlideOutWrapper>
-        <div className="w-100 h-50">{content}</div>
+        <div className="w-100 h-50">
+          {levelLabel && (
+            <div className="mb-3 inline-block rounded-full border border-emerald-300 bg-emerald-50 px-4 py-1 text-sm font-accent font-semibold tracking-wide text-emerald-800">
+              {levelLabel}
+            </div>
+          )}
+          {content}
+        </div>
       </SlideOutWrapper>
     </div>
   )

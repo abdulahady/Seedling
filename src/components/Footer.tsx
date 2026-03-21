@@ -1,7 +1,7 @@
 const Footer: React.FC = () => {
   return (
     <footer
-      className="footer footer-center p-10 text-primary-content"
+      className="footer footer-center p-10 mt-8 rounded-2xl growth-surface"
       style={{
         width: '100%',
       }}
@@ -14,8 +14,8 @@ const Footer: React.FC = () => {
           width: '100%',
         }}
       >
-        <p className="text-black font-franklin">
-          Copyright © 2024 Seedling Education - All rights reserved
+        <p className="text-emerald-900 font-body font-semibold tracking-wide">
+          Copyright Seedling Education - All rights reserved
         </p>
       </aside>
     </footer>

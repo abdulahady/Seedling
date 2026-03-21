@@ -33,6 +33,12 @@ const Accordion: React.FC<number> = ({ id }) => {
     console.log('<Accordian.tsx> The Card Props are: ', cardProps)
   }, [id])
 
+  const title = cardProps?.title || 'Loading...'
+  const rawDocumentUrls = cardProps?.documentUrls
+  const documentUrl = Array.isArray(rawDocumentUrls)
+    ? rawDocumentUrls[0]
+    : rawDocumentUrls
+
   return (
     <div className="flex justify-center w-full  w-30 lg-w-100 ">
       <div
@@ -42,29 +48,36 @@ const Accordion: React.FC<number> = ({ id }) => {
         <input type="checkbox" className="peer" />
 
         {windowWidth <= 1200 ? (
-          <a
-            id="classDocumentLink"
-            href={cardProps?.documentUrls}
-            target="_blank"
-            className=" text-black visited:text-gray-800 mb-10"
-          >
+          documentUrl ? (
+            <a
+              id="classDocumentLink"
+              href={documentUrl}
+              target="_blank"
+              className=" text-black visited:text-gray-800 mb-10"
+            >
+              <div className="collapse-title text-xl font-medium ">
+                <i className="fas fa-angle-down mr-2"></i>
+                {title}
+              </div>
+            </a>
+          ) : (
             <div className="collapse-title text-xl font-medium ">
               <i className="fas fa-angle-down mr-2"></i>
-              {cardProps?.title}
+              {title}
             </div>
-          </a>
+          )
         ) : (
           <div className="collapse-title text-xl font-medium">
             <i className="fas fa-angle-down mr-2"></i>
-            {cardProps?.title}
+            {title}
           </div>
         )}
 
-        {windowWidth >= 1201 ? (
+        {windowWidth >= 1201 && documentUrl ? (
           <div className="collapse-content flex items-center w-full overflow-hidden ">
             <iframe
-              src={cardProps?.documentUrls}
-              title={cardProps?.title}
+              src={documentUrl}
+              title={title}
               className=" w-full h-full min-h-[75vh] min-w-full border-none aspect-video "
             />
           </div>

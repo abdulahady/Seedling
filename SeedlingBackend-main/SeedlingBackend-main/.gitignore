@@ -1,0 +1,90 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+#db sql
+db.sqlite3
+
+# Python
+*.py[cod]
+*.$py.class
+__pycache__/
+*.pyc
+
+
+# VS Code
+*.vscode
+**/.vscode/
+
+# Python virtualenv
+.venv/
+.env/
+/.env
+/SeedlingProject/.env
+
+# Django
+*.log
+*.pot
+*.pyc
+**/__pycache__
+# all pycache should be ignored
+**/__pycache__/**
+
+# *media
+*.DS_Store
+
+# Backup Files
+*.bak
+
+# static files
+# TODO: add static files
+
+# react frontend
+
+# dependencies
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Vite depencencies
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

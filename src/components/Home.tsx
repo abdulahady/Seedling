@@ -127,18 +127,22 @@ function Home() {
   const timelineDetails = [
     {
       icon: '/additional-logo.png', // Replace with actual icon paths or import statements
+      levelLabel: 'Level 1 - Apprentice',
       content: <AnimatedCard id="32" />,
     },
     {
       icon: '/additional-logo.png', // Replace with actual icon paths or import statements
+      levelLabel: 'Level 2 - Explorer',
       content: <AnimatedCard id="33" />,
     },
     {
       icon: '/additional-logo.png', // Replace with actual icon paths or import statements
+      levelLabel: 'Level 3 - Scholar',
       content: <AnimatedCard id="34" />,
     },
     {
       icon: '/additional-logo.png', // Replace with actual icon paths or import statements
+      levelLabel: 'Level 4 - Journeyman',
       content: <AnimatedCard id="35" />,
     },
   ]
@@ -152,6 +156,7 @@ function Home() {
           <TimelineItem
             key={index}
             icon={item.icon}
+            levelLabel={item.levelLabel}
             content={item.content}
             showConnectingLine={index < timelineDetails.length - 1} // Show connecting line except for the last item
           />

@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
-import { Link, Route, Routes, useNavigate } from 'react-router-dom'
-import Classes from './Classes'
-import Home from './Home'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Curriculum: React.FC = () => {
   const navigate = useNavigate()
@@ -24,15 +22,26 @@ const Curriculum: React.FC = () => {
   // Your table rendering code...
 
   return (
-    <>
-      <h1 className="text-4xl font-bold leading-tight text-gray-900">
-        Curriculum Subjects
-      </h1>
-      <h2 className="pt-6 pb-2 text-3xl font-semibold leading-snug text-gray-700">
+    <div className="text-left">
+      <div className="growth-surface rounded-3xl px-6 py-8 md:px-10 relative overflow-hidden">
+        <img
+          src="/additional-logo.png"
+          alt="Plant accent"
+          className="hidden md:block absolute -top-6 -right-6 w-28 opacity-20 pointer-events-none"
+        />
+        <h1 className="text-4xl md:text-5xl font-heading font-bold leading-tight text-emerald-950">
+          Curriculum Subjects
+        </h1>
+        <p className="pt-3 text-lg text-emerald-900/90 font-body">
+          Explore each pathway and open class guides by selecting a row.
+        </p>
+      </div>
+
+      <h2 className="pt-8 pb-3 text-3xl font-heading font-semibold leading-snug text-emerald-900">
         Mathematics
       </h2>
-      <div className="overflow-x-auto">
-        <table className="table">
+      <div className="overflow-x-auto growth-surface rounded-2xl">
+        <table className="table table-zebra">
           {/* head */}
           <thead>
             <tr>
@@ -45,7 +54,7 @@ const Curriculum: React.FC = () => {
             {/* row 1 */}
 
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/8', 'MATH-161:')}
             >
               <td>1</td>
@@ -56,7 +65,7 @@ const Curriculum: React.FC = () => {
             {/* row 2 */}
             {/* row 2 - Calculus I */}
             <tr
-              className="hover:cursor-pointer "
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/9', 'MATH-171:')}
             >
               <th>2</th>
@@ -66,7 +75,7 @@ const Curriculum: React.FC = () => {
 
             {/* row 3 - Calculus II */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/6', 'MATH-172:')}
             >
               <th>3</th>
@@ -76,7 +85,7 @@ const Curriculum: React.FC = () => {
 
             {/* Calculus III and IV */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/10', 'MATH-173:')}
             >
               <th>4</th>
@@ -86,7 +95,7 @@ const Curriculum: React.FC = () => {
 
             {/* Linear Algebra */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/11', 'MATH-191:')}
             >
               <th>5</th>
@@ -96,7 +105,7 @@ const Curriculum: React.FC = () => {
 
             {/* Ordinary Differential Equations */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/12', 'MATH-193:')}
             >
               <th>6</th>
@@ -106,7 +115,7 @@ const Curriculum: React.FC = () => {
 
             {/* Elementary Statistics */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/13', 'MATH-134:')}
             >
               <th>7</th>
@@ -116,11 +125,11 @@ const Curriculum: React.FC = () => {
           </tbody>
         </table>
       </div>
-      <h2 className="pt-6 pb-2 text-3xl font-semibold leading-snug text-gray-700">
+      <h2 className="pt-8 pb-3 text-3xl font-heading font-semibold leading-snug text-emerald-900">
         Physics
       </h2>
-      <div className="overflow-x-auto">
-        <table className="table">
+      <div className="overflow-x-auto growth-surface rounded-2xl">
+        <table className="table table-zebra">
           {/* head */}
           <thead>
             <tr className="hover">
@@ -132,7 +141,7 @@ const Curriculum: React.FC = () => {
           <tbody>
             {/* row 1 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/24', 'PHYS-165:')}
             >
               <th>1</th>
@@ -142,7 +151,7 @@ const Curriculum: React.FC = () => {
             {/* row 2 */}
 
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/14', 'PHYS-101:')}
             >
               <th>2</th>
@@ -151,7 +160,7 @@ const Curriculum: React.FC = () => {
             </tr>
             {/* row 3 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/15', 'PHYS-102:')}
             >
               <th>3</th>
@@ -160,7 +169,7 @@ const Curriculum: React.FC = () => {
             </tr>
             {/* row 4 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/16', 'PHYS-103:')}
             >
               <th>4</th>
@@ -170,11 +179,11 @@ const Curriculum: React.FC = () => {
           </tbody>
         </table>
       </div>
-      <h2 className="pt-6 pb-2 text-3xl font-semibold leading-snug text-gray-700">
+      <h2 className="pt-8 pb-3 text-3xl font-heading font-semibold leading-snug text-emerald-900">
         Engineering
       </h2>
-      <div className="overflow-x-auto">
-        <table className="table">
+      <div className="overflow-x-auto growth-surface rounded-2xl">
+        <table className="table table-zebra">
           {/* head */}
           <thead>
             <tr className="hover">
@@ -186,7 +195,7 @@ const Curriculum: React.FC = () => {
           <tbody>
             {/* row 1 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/25', 'ENGR-141:')}
             >
               <th>1</th>
@@ -196,7 +205,7 @@ const Curriculum: React.FC = () => {
             {/* row 2 */}
 
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/26', 'ENGR-135:')}
             >
               <th>2</th>
@@ -205,7 +214,7 @@ const Curriculum: React.FC = () => {
             </tr>
             {/* row 3 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/27', 'ENGR-130:')}
             >
               <th>3</th>
@@ -215,11 +224,11 @@ const Curriculum: React.FC = () => {
           </tbody>
         </table>
       </div>
-      <h2 className="pt-6 pb-2 text-3xl font-semibold leading-snug text-gray-700">
+      <h2 className="pt-8 pb-3 text-3xl font-heading font-semibold leading-snug text-emerald-900">
         Chemistry
       </h2>
-      <div className="overflow-x-auto">
-        <table className="table">
+      <div className="overflow-x-auto growth-surface rounded-2xl">
+        <table className="table table-zebra">
           {/* head */}
           <thead>
             <tr className="hover">
@@ -231,7 +240,7 @@ const Curriculum: React.FC = () => {
           <tbody>
             {/* row 1 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/17', 'CHEM-101:')}
             >
               <th>1</th>
@@ -240,7 +249,7 @@ const Curriculum: React.FC = () => {
             </tr>
             {/* row 2 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/18', 'CHEM-102:')}
             >
               <th>2</th>
@@ -249,7 +258,7 @@ const Curriculum: React.FC = () => {
             </tr>
             {/* row 3 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/19', 'CHEM-112:')}
             >
               <th>3</th>
@@ -257,7 +266,7 @@ const Curriculum: React.FC = () => {
               <td>TBD</td>
             </tr>
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/20', 'CHEM:113')}
             >
               <th>4</th>
@@ -267,11 +276,11 @@ const Curriculum: React.FC = () => {
           </tbody>
         </table>
       </div>
-      <h2 className="pt-6 pb-2 text-3xl font-semibold leading-snug text-gray-700">
+      <h2 className="pt-8 pb-3 text-3xl font-heading font-semibold leading-snug text-emerald-900">
         Biology
       </h2>
-      <div className="overflow-x-auto">
-        <table className="table">
+      <div className="overflow-x-auto growth-surface rounded-2xl">
+        <table className="table table-zebra">
           {/* head */}
           <thead>
             <tr className="hover">
@@ -283,7 +292,7 @@ const Curriculum: React.FC = () => {
           <tbody>
             {/* row 1 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/21', 'BIO-101:')}
             >
               <th>1</th>
@@ -292,7 +301,7 @@ const Curriculum: React.FC = () => {
             </tr>
             {/* row 2 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/22', 'BOT-101:')}
             >
               <th>2</th>
@@ -301,7 +310,7 @@ const Curriculum: React.FC = () => {
             </tr>
             {/* row 3 */}
             <tr
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hover:bg-emerald-50/80 transition-colors"
               onClick={() => handleRowClick('/classes/23', 'ZOOL-101:')}
             >
               <th>3</th>
@@ -311,7 +320,7 @@ const Curriculum: React.FC = () => {
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   )
 }
 

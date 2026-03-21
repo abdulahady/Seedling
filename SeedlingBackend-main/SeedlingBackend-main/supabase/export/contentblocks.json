@@ -1,0 +1,1877 @@
+[
+  {
+    "id": 4,
+    "title": "Choosing Your Major",
+    "tag": "Understanding the Caveats of Majors",
+    "author": "---",
+    "published_date": "2024-01-28",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"199ku\">There are a lot of factors that go into what major you choose. For some people, it is a very easy process; for others, they have no strong feelings either way. THIS IS BAD! It is bad to have no strong feelings and float through college. You need to panic RIGHT NOW!</p><p data-block-key=\"bku8d\">This is only in part a tongue-in-cheek joke. It is a reality because you can waste YEARS if you do not pin down what you want to do and try to figure it out as you do. It is good for you to sit down <b>NOW</b> and figure this out.</p><p data-block-key=\"bkug4\">$$\\omega = \\frac{1}{2}$$</p><p data-block-key=\"craq3\">A short blast of information:</p><ul><li data-block-key=\"4bh42\">STEM majors make significantly more than humanities and non-STEM majors with a low estimate of differences (due to these categories of STEM and non-STEM being very broad) being a <b>$30,000</b> difference in annual income<ul><li data-block-key=\"f5frm\">Generally, this can be much higher with applied STEM majors making easily over $100,000 annually</li><li data-block-key=\"45j1v\">This is not even including the fact that Humanities have a much harder time finding jobs than STEM majors<ul><li data-block-key=\"d3lho\">However, if you love the humanities or a pure science, you should not be dissuaded by finances. This is the truth though.</li></ul></li></ul></li><li data-block-key=\"cgsmk\">There is a difference between applied STEM and pure science<ul><li data-block-key=\"4ujfc\">example: being a biology major without thinking about further pursuing a PhD, MD (for doctors), or PA (Physician Assistant) <b>is a TERRIBLE IDEA</b><ul><li data-block-key=\"689ll\">You make <b>SIGNIFICANTLY LESS</b> in comparison to the difficulty of your major and perhaps as little as half your engineering counterparts&#x27; annual salary</li><li data-block-key=\"cjmv9\">You also have fewer prospects in moving up in terms of income or position if you do get a find a job</li></ul></li><li data-block-key=\"nqjf\">it is also a <b>TERRIBLE IDEA TO MAJOR IN PSYCHOLOGY AND STOP AT BACHELORS!</b><ul><li data-block-key=\"demie\">If you want to do clinical work, you need at least a Masters</li></ul></li><li data-block-key=\"cf1s8\">many of the STEM majors have an end professional goal (CS -&gt; Software Developer, * Engineer -&gt; Engineer, etc.)</li><li data-block-key=\"8fn41\">pure science requires you to think it through, such as if you want to pursue pure biological research (Ph.D. path) or become an engineering-related science like chemical engineering ($105,550) versus chemistry ($79,430 annual)</li></ul></li></ul>",
+        "id": "cde6989d-d899-4959-afac-e554a7a9680b"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Curriculum Subjects",
+    "tag": "Printable Supplementary Material and Ultimate Curricular Documents",
+    "author": "Tutors, SI, etc.",
+    "published_date": "2024-01-28",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": null,
+        "id": "bf072466-bf99-48eb-bafc-7af76fac67db"
+      },
+      {
+        "type": "image",
+        "value": null,
+        "id": "afdb6b6b-1c9b-4fe1-9825-151997dadeb9"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"1g69t\">It will be as it is.</p>",
+        "id": "31421f24-d2bc-4e2e-9104-8488719a1b59"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "MATH-172: Calculus II",
+    "tag": "MATH-172",
+    "author": "Harven Dhanota",
+    "published_date": "2024-01-28",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"61vtq\">Calculus II covers applications of integration, integration techniques (Integration By Parts, trigonometric substitution, partial fractions, etc.), differentiation and integration of parametric and polar equations, infinite series, and a brief introduction to differential equations.</p>",
+        "id": "cf6d2cb7-a6b0-4eef-a7d1-c51907ecb053"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "MATH-161: Trigonometry and MATH-162: Precalculus",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"3p0h8\">Trigonometry covers the trigonometric functions (sine, cosine, etc.), trigonometric identities and proofs, how to solve trigonometric equations, how to solve right triangles (Law of Sines and Law of Cosines), polar coordinates, and a brief introduction to vectors. Precalculus covers polynomial, radical, rational, exponential, logarithmic, and trigonometric functions and their graphs, as well as a review of college algebra.</p>",
+        "id": "37085fa5-dcc1-44e4-bdc0-e4afcb15981a"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "MATH-171: Calculus I",
+    "tag": "MATH-171",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"1e1bq\">Calculus I covers limits, continuity, differentiation, applications of differentiation, and integration.</p>",
+        "id": "16794f21-ecbc-4c8e-9d41-61e746e963fe"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "MATH-173: Calculus III",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 21,
+        "id": "14163efe-ac45-456f-89c2-a3fdfa97ddcb"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"zllwk\">Calculus III covers vectors, vector functions, three-dimensional functions (including limits, differentiation, and continuity of multivariable functions), multiple integrals, and vector fields (as well as applications of vector fields).</p>",
+        "id": "7f3faea8-929d-447e-8faa-0e276ff1c4d5"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "MATH-191: Linear Algebra",
+    "tag": "MATH-191",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2024-02-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"d254l\">Linear Algebra covers linear systems of equations, matrices and determinants, vector spaces, eigenvalues and eigenvectors, and linear transformations.</p>",
+        "id": "d87bcb04-e9a7-467d-a1ce-a1e67926c6b8"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "MATH-193: Ordinary Differential Equations",
+    "tag": "MATH-193",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"ic097\">Differential Equations covers first-order ordinary differential equations (including separable, linear, and exact differential equations), substitutions for first- and second-order ordinary differential equations (including homogeneous, Bernoulli, etc.), differential equations with variable coefficients (rather than constant coefficients), Laplace transforms, systems of differential equations, and applications of differential equations.</p>",
+        "id": "62227b79-e252-4efc-8449-3271b192057b"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "MATH-134: Elementary Statistics",
+    "tag": "MATH-134",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"6ocsl\">Elementary Statistics covers probability, probability distributions (both discrete and continuous), regression analysis (including linear regression), hypothesis testing, and ANOVA.</p>",
+        "id": "df6b5cb3-9c04-498a-9133-a8c77a6ec676"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "PHYS-101: Mechanics",
+    "tag": "PHYS-101",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"ijohy\">Physics I covers classical mechanics, including measurement, kinematics (both in one dimension and two dimensions), Newton&#x27;s laws of motion, circular motion, work, energy, momentum, rotational kinematics and dynamics, inertia, gravitation, and statics.</p>",
+        "id": "f1b0cd6d-9974-4066-92d2-69e4e38e0258"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "PHYS-102: Waves, Thermodynamics, Optics",
+    "tag": "PHYS-102",
+    "author": "Harven Dhanota and Kyle Zheng",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"chieo\">Physics II covers waves, thermodynamics and optics, including sound waves, wave motion, objects moving in sinusoidal motion, fluids, the ideal gas law, kinetic energy of molecules, the first and second laws of thermodynamics, mirrors, and lenses.</p>",
+        "id": "3ddb34b4-9543-4b49-8a0b-7dcccdae5553"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "PHYS-103: Electricity, Magnetism, and Modern Physics",
+    "tag": "PHYS-103",
+    "author": "Harven Dhanota, Abdul Ahad & Kyle Zheng",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"yxhvy\">Physics III covers electricity, magnetism, and modern physics, including electrostatics, electrodynamics, circuits, magnetism, special relativity, quantum mechanics, and nuclear physics.</p>",
+        "id": "74e4853b-2fe7-4adc-a5a2-f3259de906dd"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "CHEM-101: Chemistry I",
+    "tag": "CHEM-101",
+    "author": "Manuel Martinez",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 18,
+        "id": "2e2485a0-3d73-4c06-a15f-06a46e302391"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"47aob\">Chemistry I covers chemical reactions, chemical energy, gas laws, stoichiometry, atomic structure, quantum mechanics, chemical bonding, molecular structure, intermolecular attractions, and properties of liquids and solids.</p>",
+        "id": "cd638d3f-a49f-407a-bd9a-f776228be851"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "CHEM-102: Chemistry II",
+    "tag": "CHEM-102",
+    "author": "Manuel Martinez",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"45fkc\">Chemistry II covers kinetics, solutions, equilibrium, acids and bases, thermodynamics, electrochemistry, nuclear chemistry, coordination chemistry, and descriptive chemistry.</p>",
+        "id": "c2f2ada2-fd31-4c96-8f98-65978a7d1b1a"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "CHEM-112: Organic Chemistry I",
+    "tag": "CHEM-112",
+    "author": "Manuel Martinez",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"pnbg8\">Organic Chemistry I covers acid-base relationships, stereochemistry, conjugation, resonance, reactions, synthesis, mechanisms, and advanced spectroscopy.</p>",
+        "id": "bcf04380-8fdd-45b2-8361-6a1fe1f639c4"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "CHEM-113: Organic Chemistry II",
+    "tag": "CHEM-113",
+    "author": "Manuel Martinez",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"0ebzh\">Organic Chemistry II covers aromatic compounds, aldehydes, ketones, carboxylic acids, amines, bio-organic compounds, oxidation and reduction processes, and biomolecules. (This class material is a work-in-progress. The writers are currently taking the course.) </p>",
+        "id": "ab71acd2-5fcd-48a8-8470-ca9434589428"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "BIO-101: Biological Principles",
+    "tag": "BIO-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"x7yz3\">Biological Principles covers an introduction to the nature of science, reproduction, development, evolution, energetics, molecular biology, genetics, cellular structure, homeostasis, ecology, and taxonomy.</p>",
+        "id": "97e3de69-36da-4410-8849-2b35910917a0"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "BOT-101: General Botany",
+    "tag": "BOT-101",
+    "author": "Priyanka Pal",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"k3z25\">Botany covers the principles of plant life and the anatomy, physiology, reproduction, genetics and evolution of bacteria and fungi.</p>",
+        "id": "e11d24dd-8ae7-4ca4-8ccc-27c493765fd3"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "ZOOL-101: General Zoology",
+    "tag": "ZOOL-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"ql8px\">Zoology covers the principles of animal life and classification and the survey of animal phyla with an emphasis on evolutionary relationships.</p>",
+        "id": "780897ea-8d99-463d-accc-ee5aeabdba87"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "NSF REU Website and General Guide",
+    "tag": "research",
+    "author": "---",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 13,
+        "id": "66723649-fa68-410e-a96f-a96a513a7b7d"
+      },
+      {
+        "type": "paragraph",
+        "value": "<ol><li data-block-key=\"7r0if\">Go to <b>etap.nsf.gov</b></li><li data-block-key=\"86h34\">Sign-up and create a new account or sign-in</li><li data-block-key=\"1pa8r\">Note the left side bar and the navigation bar at the top of the screen:<ol><li data-block-key=\"8lqce\">Registration: Provide personal information about yourself</li><li data-block-key=\"4qlh5\">My Application: Gives you a list of In-Progress and Submitted REU applications</li><li data-block-key=\"7m7kt\">Application Materials: Where you provide a personal statement, upload your resume, and upload your transcript.</li><li data-block-key=\"9rv33\">My References: Where you request recommendation letters from professors or researchers you worked with previously:<ol><li data-block-key=\"agroa\">These can be later added to each REU.</li><li data-block-key=\"92v8v\">If you are a student that is considered the intersection of multiple disciplines like a pre-med student or electrical engineer, you can ask for a professor in [chemistry and biology] or [engineering and computer science] to write letters for you.<ol><li data-block-key=\"80hkv\">Then, if a specific REU only needs 1 letter, you can use the letter that is more relevant to the research topic (chemistry or biology etc.).</li></ol></li></ol></li></ol></li><li data-block-key=\"49ns0\">An unofficial transcript can be found in Piratesnet or you contact the records office through email for them to send it to you</li><li data-block-key=\"84v5i\">Resumes/CV can be made in Google docs, downloaded as a pdf, and then uploaded (link to resume guide)</li><li data-block-key=\"32g8l\">Go to Search Opportunities and click on the filter button<ol><li data-block-key=\"5ivbb\">Click on undergraduates and then scroll down to field of study</li><li data-block-key=\"6avrq\">Click on the expand underneath field of study and check mark any disciplines relevant to your major or intended career</li><li data-block-key=\"3n9jg\">Check the REU requirements</li></ol></li><li data-block-key=\"em5rp\">You need to write a personal statement with 3 key pieces (non-narrative, tell and kinda show):<ol><li data-block-key=\"f7p1c\">Discuss how you would contribute to the REU, noting one specific topic they are researching at the REU and researching a professor/researcher that is a part of the REU working on that topic<ol><li data-block-key=\"climn\">This information can be found by first visiting the associated website of the REU you are interested in or by looking it up on Google (e.g. search PreMiEr Duke REU -&gt; Research -&gt; Choose a professor -&gt; Look at their CV)</li><li data-block-key=\"cbuhf\">Once you have a topic you are interested in, a professor related to the REU and the topic, and a work (research paper) of the professor related to the topic, integrate this demonstration of interest into your past research experiences, classes, or extracurriculars to show how you would contribute in a concrete way.</li></ol></li><li data-block-key=\"ahq61\">Discuss your diversity (e.g. Community college student, Latino, LGBTQ+, woman, first-generation American, first-generation college student etc.)</li><li data-block-key=\"dgmdj\">Discuss how you take advantage of every opportunity, citing personal examples and mapping it to how you would take advantage of the REU if you got in<ol><li data-block-key=\"f6dvr\">You need to discuss your future: do you plan to go to graduate school? Is a PhD or research career appealing to you? Why do you love research or the topic you discussed above?</li></ol></li></ol></li><li data-block-key=\"bt581\">Depending on the internship, you may need a minimum of 1 or a maximum of 2 recommendation letters from a professor or someone you conducted research under previously.</li><li data-block-key=\"b1475\">Submit your application</li></ol><p data-block-key=\"b8375\"><i>Note: Big names mean more competition. You will face more competition trying to go to a Biophysics REU at Princeton than you would at a less prestigious institution. Make sure to note reaches and make the majority of your selections (preferably 10+) within the realm of possibility.</i></p><p data-block-key=\"5koeq\">Notes:<br/>1. After submitting, you can not unsubmit or resubmit an application</p><ol><li data-block-key=\"6c0kn\">If this is your second year applying, your experiences will be different so make sure you go back to your profile and check whether the information is still correct (for example if you applied got into an REU and published then applied to an REU the following year, you need to make sure that you updated Experience under Registration (sidebar)).</li></ol>",
+        "id": "8de67da1-eb64-482e-8ef4-ae85f435c45c"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Miscellaneous Information",
+    "tag": "miscellaneous",
+    "author": "---",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"kth5c\">We build each other. We build ourselves. Empower the future.</p>",
+        "id": "d47191e4-50b6-414f-a958-264d288735c8"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Cold-Emailing Professors for Research",
+    "tag": "research",
+    "author": "Jiheon Kang",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 14,
+        "id": "7a78a931-f927-4401-bdc5-62fbca824379"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"9rfyd\"><b>Before you write an email to professor: </b></p><ol><li data-block-key=\"7bgo4\">Make sure you find your research interest first (eg., cs, biology, chemistry, etc). </li><li data-block-key=\"e1pbc\">Be aware of what colleges are near your current university or college (it should be somewhere that you can easily commute - remote research is almost impossible unless you have connections with faculty members). </li><li data-block-key=\"2vsev\">Go to the website of the university that you want to do research, and go to the department of your interest or major. </li><li data-block-key=\"bo6u8\">Go to the faculty category and look for a professor whose project aligns with your interest. </li><li data-block-key=\"9mi8k\">Once you find a professor, start exploring the lab; make sure you check their research interests. </li></ol><p data-block-key=\"fq2f5\"><b>Writing an email to professor: </b></p><ol><li data-block-key=\"70n1g\">Find publications (of the professor) that you are interested in and start reading one or two. </li><li data-block-key=\"fvgq6\">Make a note on what the project is about and their goals; highly recommend reading abstract to grasp the concepts. </li><li data-block-key=\"foe7g\">Once you are done with reading papers and fully understand what&#x27;s going on, start writing emails to professors. </li><li data-block-key=\"f33cd\">When writing a cold email, there are three components that you need to include:<ol><li data-block-key=\"c1j28\">Introduction : You need to introduce yourself and what your major and school you go to. </li></ol></li><li data-block-key=\"1ajih\">Information: You need to explain what made you become interested in that field and what you did previously to pursue your interest. </li></ol><p data-block-key=\"bskba\"><b>Final: Now, mention specific interests from publications you read and explain why joining the project will be helpful for your career. </b></p>",
+        "id": "3c280a2c-7180-4d89-b84b-994ae4f67e73"
+      },
+      {
+        "type": "image",
+        "value": 22,
+        "id": "f0f5e301-5776-48bf-8f77-6e72dcc138ba"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Transfer",
+    "tag": "transfer",
+    "author": "---",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"fdndc\">Bridging the socio-cultural capital and inherited knowledge of low-income, first-generation American, first-generation college students at community colleges.</p>",
+        "id": "a4b655a2-d990-4617-9d4c-a3ecf98f7a3b"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Applying to the UCs",
+    "tag": "transfer",
+    "author": "---",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"3vp5x\">TAG, TAP, Major Guidance, Essays, Activities List, and the Entire UC Process.</p><ul><li data-block-key=\"9c22b\">No recommendation letters are required.</li><li data-block-key=\"fp57r\">Activities List Required</li><li data-block-key=\"augoj\">Personal Insight Questions (PIQ) are required<ul><li data-block-key=\"ev24j\">Make sure you answer the Transfer, not the first-year ones because there is a slight difference.</li></ul></li><li data-block-key=\"btfhd\">No test scores (SAT, IB, AP) required</li></ul>",
+        "id": "8cba387f-cfd0-4885-92c5-eb47221791a2"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Calculus II Chapter 6 Review Notes",
+    "tag": "MATH-172",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-17",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 25,
+        "id": "ce97111d-7477-4fe8-8f01-27c0a9c71c3c"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "What is the Timeline",
+    "tag": "timeline",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"26cpq\">This gamified timeline is our attempt at simplifying the community college to transfer experience into 4 stages.</p><p data-block-key=\"ff8uo\">This was written with the 2-year community college experience in mind.</p><p data-block-key=\"8kl13\">Keep in mind that some people might take longer, and some shorter, to transfer.</p>",
+        "id": "eaf5e9d9-51eb-4e40-8dc5-d726c3a3672c"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Beginner",
+    "tag": "timeline",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<h2 data-block-key=\"c7rah\">For students approximately in semester 1 from August - October:</h2><ul><li data-block-key=\"5egf6\"><a href=\"https://seedlingeducation.org/timeline/39\">Choosing Majors</a></li><li data-block-key=\"e89h6\">Public vs Private Transfer Schools: Private is <b>NOT</b> more expensive than public!</li><li data-block-key=\"a50gv\">FAFSA<ul><li data-block-key=\"48kjj\">Did you know that FAFSA is first come first serve? The amount of \u201cfree money\u201d you can get depends on how early you complete the application! So, get on it!</li><li data-block-key=\"21qpb\"><a href=\"https://studentaid.gov/h/apply-for-aid/fafsa\">https://studentaid.gov/h/apply-for-aid/fafsa</a></li><li data-block-key=\"9n93q\">TRIO, EOPS, and other organizations at community colleges can help with this process.</li></ul></li></ul>",
+        "id": "06c7cd18-0b8f-4d17-b3e3-2ddd236bca63"
+      },
+      {
+        "type": "embed",
+        "value": "https://youtu.be/OWGZCnk3GZg?si=ubcENNbhJUpBQq_n",
+        "id": "62032c9a-5d08-4288-ba92-8374a9c6a378"
+      },
+      {
+        "type": "paragraph",
+        "value": "<ul><li data-block-key=\"82e6j\">IGETC and Assist.org</li><li data-block-key=\"6o7jd\">Quick Overview: MJC Opportunities</li></ul><p data-block-key=\"8k7cv\"><a href=\"https://www.communityali.org/services\">https://www.communityali.org/services</a></p><p data-block-key=\"c6ppq\"></p><h3 data-block-key=\"8kjb9\">Trial by Fire. The hardest part of any college career is the initiation. You need to ensure you start strong and do not miss out on anything.</h3><h2 data-block-key=\"4bagq\">Problems Tackled:</h2><ol><li data-block-key=\"a12vp\">Considerations Financial and Life Considerations for choosing a major.</li><li data-block-key=\"15cgu\">What do you know about the transfer universities you are tackling?</li><li data-block-key=\"c88td\">Make sure you do not take the wrong classes for transferring.</li><li data-block-key=\"n5ue\">Resources to fill out financial aid FAFSA form.</li><li data-block-key=\"buh4o\">Make sure you do not miss the immediate opportunities with an immediate deadline.</li></ol>",
+        "id": "b7528b67-2952-4c52-87b4-19958cc3da25"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Novice",
+    "tag": "timeline",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"to2mt\">For students in approximately semester 1 October - December</p><ol><li data-block-key=\"61a9h\"><a href=\"http://seedlingeducation.org/curriculum/*\">Study Resources</a></li><li data-block-key=\"842l1\">MJC Scholarships</li><li data-block-key=\"6q6it\">Awareness of Deadlines</li></ol><p data-block-key=\"d5vju\">This is the Stabilization stage for students after being initiated by fire. Now that you are situated in your classes and have a ground hold, make sure you do not mess up your grades.</p><p data-block-key=\"c3ai9\"></p><p data-block-key=\"doi8l\">Problems Tackled:</p><ul><li data-block-key=\"ev4lh\">Where to get resources for all your STEM classes from the top students of prior years.</li><li data-block-key=\"6f93s\">How to get additional money for college easily.</li><li data-block-key=\"2i6sh\">Understanding of Important Upcoming Deadlines.</li></ul>",
+        "id": "32f5c010-2c21-47d8-b78a-4bbaaec66912"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Apprentice",
+    "tag": "timeline",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"gaidg\">For students approximately in their second semester (Deeper Opportunities):</p><ol><li data-block-key=\"cftu6\"><a href=\"https://seedlingeducation.org/timeline/25\">REUs</a></li><li data-block-key=\"1udet\">SolveCC</li><li data-block-key=\"dkh90\">Reflection</li></ol><p data-block-key=\"e4dsl\">At this point, you are ready to expand your activities now that you are situated in your college career.</p><p data-block-key=\"95ml9\"></p><p data-block-key=\"8ujan\"><b>YES! Freshmen CAN conduct</b> <a href=\"https://seedlingeducation.org/timeline/36\"><b>research</b></a><b>.</b></p><p data-block-key=\"1p71u\">Problems Tackled:</p><ul><li data-block-key=\"58at\">How to make a strong application for transfer.</li><li data-block-key=\"7ng5o\">How to get involved in research/internships.</li></ul>",
+        "id": "17a70d91-d67c-45a8-9991-7d636a6ba354"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Journeyman",
+    "tag": "timeline",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"nvnaq\">For students approximately in their 3rd semester (Ready to Transfer)</p><ol><li data-block-key=\"ajub5\">UC Admission Portal: Activities List, Personal Insight Questions, Course Grades</li><li data-block-key=\"fb81g\"><a href=\"https://seedlingeducation.org/timeline/40\">Common Application</a></li></ol><p data-block-key=\"dvc4g\"></p><p data-block-key=\"2g36o\">Problems Tackled:</p><ul><li data-block-key=\"e3k15\">Various forms or documents that are needed for different applications: Midterm Report, College Transcripts, High School Transcripts</li><li data-block-key=\"bb2a4\">How to write essays and activity lists.</li><li data-block-key=\"pdnq\">Insight on how to tackle the application process.</li></ul>",
+        "id": "db97eae2-cae8-4b24-8fa3-dbb08a101250"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Links to Opportunities (Research)",
+    "tag": "research",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 15,
+        "id": "e92da8d3-4673-4d39-bfcd-d0d18425764c"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"1slhp\">Research Opportunities by MJC:</p><p data-block-key=\"9efm4\"><a href=\"https://www.mjc.edu/studentservices/counseling/stem/resources.php\">https://www.mjc.edu/studentservices/counseling/stem/resources.php</a></p><p data-block-key=\"fjnso\"></p><p data-block-key=\"fg54a\">DREU from CRA: for CS students</p><p data-block-key=\"fo1gr\"><a href=\"https://cra.org/cra-wp/dreu/\">https://cra.org/cra-wp/dreu/</a></p><p data-block-key=\"5m0nc\"></p><p data-block-key=\"2rvnr\">REU: <b>Check out the specific REU Application page</b></p><p data-block-key=\"969ht\">Application Site: <a href=\"https://etap.nsf.gov/\">https://etap.nsf.gov/</a></p><p data-block-key=\"j41t\"></p><p data-block-key=\"99bbt\">Stanford List of Opportunities for Community College Students:</p><p data-block-key=\"aneti\"><a id=\"33\" linktype=\"document\">Stanford Community College Programs Fall 2023 - Internship_Research programs (1)</a></p><p data-block-key=\"42g8c\"></p><p data-block-key=\"c585n\">NL- SULI and CCI</p><p data-block-key=\"dp2a0\">CCI: <a href=\"https://science.osti.gov/wdts/cci\">https://science.osti.gov/wdts/cci</a></p><p data-block-key=\"9r336\">SULI: <a href=\"https://science.osti.gov/wdts/suli\">https://science.osti.gov/wdts/suli</a></p><p data-block-key=\"2n4so\"></p><p data-block-key=\"co6k0\">Gladstone Institute (PUMAS): for Medical and Biomedical Students</p><p data-block-key=\"7krr9\"><a href=\"https://gladstone.org/training/pumas-summer-internship-program\">https://gladstone.org/training/pumas-summer-internship-program</a></p><p data-block-key=\"csj9f\"><a id=\"32\" linktype=\"document\">UCSF Slideshow Biomedical and Medical Gladstone Institute Info</a></p><p data-block-key=\"6joah\"></p><p data-block-key=\"eu2qp\">CSU Stanislaus</p><p data-block-key=\"esark\"><a href=\"https://www.csustan.edu/physics-physical-sciences/growth-msi\">https://www.csustan.edu/physics-physical-sciences/growth-msi</a></p><p data-block-key=\"emclb\"><a href=\"https://www.csustan.edu/physics-physical-sciences/nasa-atmospheric-science\">https://www.csustan.edu/physics-physical-sciences/nasa-atmospheric-science</a></p><p data-block-key=\"821u9\">NASA</p><p data-block-key=\"cvsfj\"><a href=\"https://www.nasa.gov/learning-resources/minority-university-research-education-project/\">https://www.nasa.gov/learning-resources/minority-university-research-education-project/</a></p><p data-block-key=\"fj8sh\"><a href=\"https://www.nasa.gov/learning-resources/nasa-community-college-aerospace-scholars/\">https://www.nasa.gov/learning-resources/nasa-community-college-aerospace-scholars/</a></p><p data-block-key=\"8srss\"><br/>Jet Propulsion Laboratory works with NASA</p><p data-block-key=\"b1il3\"><a href=\"https://www.jpl.nasa.gov/edu/intern/apply/summer-internship-program/\">https://www.jpl.nasa.gov/edu/intern/apply/summer-internship-program/</a></p><p data-block-key=\"b4irf\"></p><p data-block-key=\"6t8k3\">Pathways to Science <a href=\"https://pathwaystoscience.org/programs.aspx?u=Undergrads_Undergraduate+Students&amp;sm=&amp;sd=&amp;sy=&amp;dd=SummerResearch_Summer+Research+Opportunity&amp;submit=y&amp;dhub=SummerResearch_Summer+Research+Opportunity\">https://pathwaystoscience.org/programs.aspx?u=Undergrads_Undergraduate+Students&amp;sm=&amp;sd=&amp;sy=&amp;dd=SummerResearch_Summer+Research+Opportunity&amp;submit=y&amp;dhub=SummerResearch_Summer+Research+Opportunity</a></p><p data-block-key=\"51pbr\"></p><p data-block-key=\"4qao0\">RICE NEWT aimed at CC</p><p data-block-key=\"9i8v5\"><a href=\"https://research.rice.edu/rstem/newt-reu\">https://research.rice.edu/rstem/newt-reu</a></p><p data-block-key=\"fqccg\"><a href=\"https://www.nsf.gov/awardsearch/showAward?AWD_ID=1461248\">https://www.nsf.gov/awardsearch/showAward?AWD_ID=1461248</a></p><p data-block-key=\"emir1\"></p><p data-block-key=\"8khnq\">Chem REU at UCSD</p><p data-block-key=\"cd79t\"><a href=\"http://chemreu.ucsd.edu/\">http://chemreu.ucsd.edu/</a></p><p data-block-key=\"bca6l\"></p><p data-block-key=\"3k1v6\"><b>CS Opportunities (including competitions):</b></p><ol><li data-block-key=\"2abda\"><a href=\"https://ieeextreme.org/\"><b>https://ieeextreme.org/</b></a></li><li data-block-key=\"5rf73\"><a href=\"https://www.computer.org/volunteering/awards/scholarships/larson\"><b>https://www.computer.org/volunteering/awards/scholarships/larson</b></a><b> (CS Research Paper Scholarship for Research Papers)</b></li></ol><p data-block-key=\"2ek2s\"></p><p data-block-key=\"5hhk1\"><b>Biology Opportunities (including competitions):</b></p><ol><li data-block-key=\"1q0t2\"><a href=\"https://igem.org/\">https://igem.org/</a> (Synthetic biology)</li><li data-block-key=\"cc989\"><a href=\"https://www.biogenesisolympiad.com/\">https://www.biogenesisolympiad.com/</a> (biology and bio related subjects competition for undergrad)</li><li data-block-key=\"auai8\"><a href=\"https://www.anl.gov/education/science-undergraduate-laboratory-internship\">https://www.anl.gov/education/science-undergraduate-laboratory-internship</a> (Argonne Lab)</li><li data-block-key=\"c9f1n\"><a href=\"https://www.anl.gov/education/community-college-internship\">https://www.anl.gov/education/community-college-internship</a> (For community college students - research opportunities)</li><li data-block-key=\"5ifci\"><a href=\"https://www.anl.gov/education/minority-serving-institutions-partnership-program\">https://www.anl.gov/education/minority-serving-institutions-partnership-program</a> (For minority students specifically)</li><li data-block-key=\"3m1fp\"><a href=\"https://amgenscholars.com/\">https://amgenscholars.com/</a> (Biotechnology Research Internship hosted by biotechnology company AMGEN)</li><li data-block-key=\"fi7p1\"><a href=\"https://publish.illinois.edu/micro-ccs/\">https://publish.illinois.edu/micro-ccs/</a> (Microbiology Research program for community college students by UIUC)</li><li data-block-key=\"akm16\"><a href=\"https://www.training.nih.gov/research-training/pb/sip/ccsep/\">https://www.training.nih.gov/research-training/pb/sip/ccsep/</a> (NIH Summer Science Enrich Program for Community College Students)</li><li data-block-key=\"blpgl\"><a href=\"https://www.training.nih.gov/research-training/grads/summer-internship-program-sip/m-soar/\">https://www.training.nih.gov/research-training/grads/summer-internship-program-sip/m-soar/</a> (NIH Medical Advanced Research for Undergrad Summer Program)</li><li data-block-key=\"alv81\"><a href=\"https://www.training.nih.gov/research-training/pb/sip/v-soar/\">https://www.training.nih.gov/research-training/pb/sip/v-soar/</a> (NIH Virtual Research Program for Undergrad)</li></ol><p data-block-key=\"89fqt\"></p><p data-block-key=\"2rs54\"><b>Engineering Opportunities (including competitions):</b></p><ol><li data-block-key=\"3q28c\"><a href=\"https://wie.ieee.org/awards/affinity-group/#:~:text=The%20IEEE%20Women%20in%20Engineering,December%20of%20the%20preceding%20year\"><b>https://wie.ieee.org/awards/affinity-group/#:~:text=The%20IEEE%20Women%20in%20Engineering,December%20of%20the%20preceding%20year</b></a><b>. (IEEE Women in Engineering)</b></li><li data-block-key=\"8occs\"><a href=\"https://www.ieee-itherm.net/heat-sink-competition/\"><b>https://www.ieee-itherm.net/heat-sink-competition/</b></a><b> (Heat &amp; Chemical Engineering majors)</b></li><li data-block-key=\"3a9ah\"><a href=\"https://ieeeaps.org/education/student-design-contest\"><b>https://ieeeaps.org/education/student-design-contest</b></a><b> (Engineering &amp; Design)</b></li></ol>",
+        "id": "6ee2e61e-d7cd-4f56-8158-4bd70f73fad0"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Weeding for Honors Students",
+    "tag": "research",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 16,
+        "id": "acaeb79c-0052-43d7-bef8-e91002208050"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"74y7r\"><a href=\"https://www.mjc.edu/instruction/honors/\nhttps://www.mjc.edu/instruction/honors/documents/honors_application_fillable.pdf\nhttps://www.honorstransfercouncil.org/transfer-partners \">https://www.mjc.edu/instruction/honors/</a></p><p data-block-key=\"aags7\"><a href=\"https://www.mjc.edu/instruction/honors/\nhttps://www.mjc.edu/instruction/honors/documents/honors_application_fillable.pdf\nhttps://www.honorstransfercouncil.org/transfer-partners \">https://www.mjc.edu/instruction/honors/documents/honors_application_fillable.pdf</a></p><p data-block-key=\"dibtc\"><a href=\"https://www.mjc.edu/instruction/honors/\nhttps://www.mjc.edu/instruction/honors/documents/honors_application_fillable.pdf\nhttps://www.honorstransfercouncil.org/transfer-partners \">https://www.honorstransfercouncil.org/transfer-partners</a></p><p data-block-key=\"5glg3\"></p><p data-block-key=\"41f1m\"><b>To the Honors Student:</b></p><p data-block-key=\"d25dl\">Teachers are incredibly overwhelmed at this moment. They have a lot of responsibilities that go beyond the classroom, some more than others. So, to make sure we do not overburden them further, here are some of the requirements to weed out some students.</p><p data-block-key=\"5o6ud\"><i>Honors Student Profile:</i></p><ol><li data-block-key=\"b8or4\">While the Honors program believes in equity and as such does not need a specific GPA to join the program, there is an exit requirement of 3.25.<ol><li data-block-key=\"1g7nv\">For example, say that you have a 2.5 GPA and you want to enter the Honors Program at MJC. You can, but you need to convince the director and teacher\u2019s that YOU are worth it. Harsh but true.</li><li data-block-key=\"948a0\">Although MJC has a requirement of 5 contracts for a complete <b>HONORS PROGRAM</b> and <b>WE</b> have an exit GPA for 3.25, the requirement GPA is different for every college that has a contract with the Honors Transfer Council of California (of which MJC is a part of) Honors Transfer Council: <a href=\"https://www.honorstransfercouncil.org/\">https://www.honorstransfercouncil.org/</a><ol><li data-block-key=\"e28ek\">Some Colleges with Contracts with Honors Program (which increases how much these colleges consider your applications):<ol><li data-block-key=\"3fo5g\">Yale</li><li data-block-key=\"e4lb6\">Williams College (a top Liberal Arts College in Massachusetts)</li><li data-block-key=\"8cu54\">UC Irvine</li><li data-block-key=\"9eodb\">Pomona (a top Liberal Arts College in Claremont College)</li><li data-block-key=\"8qheb\">CSU Honors Programs</li></ol></li></ol></li></ol></li><li data-block-key=\"523to\">In STEM, the student should have passed the first class in a science sequence (e.g. Physics 101).</li><li data-block-key=\"bkp2k\">In the Humanities, the student should be in good academic standing and doing well</li><li data-block-key=\"7jbvv\">Have a good relationship with the teachers that you plan to ask (e.g. attending their office hours and engaging in classes)</li></ol><p data-block-key=\"agvuu\"><i>Requirements for Starting an Honors Project:</i></p><ol><li data-block-key=\"aui0c\">Submit the following application to Professor Eva Mo (email: _)<ol><li data-block-key=\"crt57\">Next, talk with Professor Eva Mo and join the Honors program.</li></ol></li><li data-block-key=\"4hqds\">Draft a preliminary Honors contract [this is a specific contract that the Honors program has and will be given after you join the program] <b>BEFORE</b> meeting with an instructor you want to do an Honors project with.</li><li data-block-key=\"7d8l9\">Meet with the instructor and set up your meeting schedule, keeping constant contact with them.</li><li data-block-key=\"euf3b\">Do not drop communications randomly without at least telling the Honors professor the circumstances. If you <b>ABSOLUTELY</b> need to drop an Honors contract, <b>TELL</b> the professor.<ol><li data-block-key=\"93ubu\">You creating angry professors will ruin it for <b>EVERYONE!</b></li></ol></li></ol><p data-block-key=\"bh319\"><i>Additional Notes Regarding the Honors Program:</i></p><p data-block-key=\"c5udn\">The first Honors contract that you conduct must be from a class that you are currently taking. After your <b>SUCCESSFUL</b> Honors contract, you can go \u201cback in time\u201d and conduct an Honors contract with a previous class you passed with an A or a B, given the teacher agrees and you maintain good communication with them.</p>",
+        "id": "66f5cab1-89b2-4d6d-bd69-addd295f3c7c"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "What is and What are the Benefits of Honors Program",
+    "tag": "research",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 17,
+        "id": "6b398a22-b56d-48fd-8f9e-699190cd4a6e"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"lc9kg\"><b>What is Honors?</b></p><p data-block-key=\"ftj5q\">The Honors program is an enrichment of a current class that you are taking. You can think of it as an additional project that stems from content you are already learning in class, but you extend it and go deeper.</p><p data-block-key=\"693br\">So imagine this, you are taking English 101 and you encounter something very interesting during a part of the curriculum about transhumanism. You want to pursue this thought further and transform it into a research project (not as intense as true research).</p><p data-block-key=\"38gc4\">Hypothetically, you are a part of the Honors program and you draft an Honors contract about this project.</p><p data-block-key=\"d9tfp\">You send this contract over to Professor Eva Mo through the Canvas shell.</p><p data-block-key=\"l1ah\">This is a brief idea of how this is initiated. Check out Weeding for Honors Students to receive additional instructions.</p><p data-block-key=\"eb060\">Then, go to the link below and talk with Professor Eva Mo in order to understand this process in more detail.</p><p data-block-key=\"2i042\"><a href=\"https://www.mjc.edu/instruction/honors/\">https://www.mjc.edu/instruction/honors/</a></p><p data-block-key=\"7mt10\"></p><p data-block-key=\"5a46\"><b>What are the Benefits of Honors?</b></p><ol><li data-block-key=\"3jqmt\">You have the chance to build a relationship with teachers and enrich your courses through researching you truly care about.</li><li data-block-key=\"1fhcg\">You can apply to the Stanford/Berkeley Bay Honors Symposium, presenting your research, and publishing in the associated journal (becoming a published researcher), which is really good for your resume.</li><li data-block-key=\"asp08\">MJC Honors Program is a part of the Honors Transfer Council. This means that we have transfer agreements with schools such as Yale, UC Irvine, Pomona College, and many more! Here is the link to the transfer partners:<ol><li data-block-key=\"2tvv4\"><a href=\"https://www.honorstransfercouncil.org/transfer-partners\">https://www.honorstransfercouncil.org/transfer-partners</a></li></ol></li><li data-block-key=\"b361b\">When you apply for transfer, you will notice something similar to this and it indicates that you have a higher chance of acceptance to these elite schools with sub 20% or sub 10% acceptance rates like Yale and Pomona:</li></ol><embed alt=\"HTCC_Pomona_Special_Consideration\" embedtype=\"image\" format=\"fullwidth\" id=\"8\"/><p data-block-key=\"3m3h\"></p>",
+        "id": "cd21e97d-bab2-4c1c-b0f5-aea600974c7f"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Choosing Your Major",
+    "tag": "miscellaneous",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 9,
+        "id": "51892d45-c73a-465f-b2bf-a76897d326b1"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"2iali\">There are a lot of factors that go into what major you choose. For some people, it is a very easy process; for others, they have no strong feelings either way. THIS IS BAD! It is bad to have no strong feelings and float through college. You need to panic RIGHT NOW!</p><p data-block-key=\"7bdgc\">This is only in part a tongue-in-cheek joke. It is a reality because you can waste YEARS if you do not pin down what you want to do and try to figure it out as you do. It is good for you to sit down <b>NOW</b> and figure this out.</p><p data-block-key=\"eot4g\">A short blast of information:</p><ul><li data-block-key=\"3h63r\">STEM majors make significantly more than humanities and non-STEM majors with a low estimate of differences (due to these categories of STEM and non-STEM being very broad) being a <b>$30,000</b> difference in annual income</li><li data-block-key=\"dg8fa\">Generally, this can be much higher with applied STEM majors making easily over $100,000 annually</li><li data-block-key=\"dmbeg\">This is not even including the fact that Humanities have a much harder time finding jobs than STEM majors</li><li data-block-key=\"3p09c\">However, if you love the humanities or a pure science, you should not be dissuaded by finances. This is the truth though.</li><li data-block-key=\"932lo\">There is a difference between applied STEM and pure science</li><li data-block-key=\"2sa7p\">example: being a biology major without thinking about further pursuing a PhD, MD (for doctors), or PA (Physician Assistant) <b>is a TERRIBLE IDEA</b></li><li data-block-key=\"258o1\">You make <b>SIGNIFICANTLY LESS</b> in comparison to the difficulty of your major and perhaps as little as half your engineering counterparts&#x27; annual salary</li><li data-block-key=\"1lmr6\">You also have fewer prospects in moving up in terms of income or position if you do get a find a job</li><li data-block-key=\"e4ccr\">it is also a <b>TERRIBLE IDEA TO MAJOR IN PSYCHOLOGY AND STOP AT BACHELORS!</b></li><li data-block-key=\"785tv\">If you want to do clinical work, you need at least a Masters</li><li data-block-key=\"feete\">many of the STEM majors have an end professional goal (CS -&gt; Software Developer, * Engineer -&gt; Engineer, etc.)</li><li data-block-key=\"8aiu6\">pure science requires you to think it through, such as if you want to pursue pure biological research (Ph.D. path) or become an engineering-related science like chemical engineering ($105,550) versus chemistry ($79,430 annual)</li></ul>",
+        "id": "a1bb4895-20be-44af-8ae4-e7f9f4142544"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Applying to Privates Through Common App",
+    "tag": "transfer",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<ul><li data-block-key=\"705vs\">Final High School Transcript (from your high school)</li><li data-block-key=\"7laoa\">College Transcript (from your college)</li><li data-block-key=\"csbv3\">College Report (from a counselor at college)</li><li data-block-key=\"7jqpr\">SAT or ACT (optional and if submitted can be <b>self-reported</b>, does not require official)</li><li data-block-key=\"buc62\">2 Recommendation Letters (Academic Evaluation 1 and 2)</li><li data-block-key=\"q3np\">Application (everything that you do purely on Common App like Experiences, Honors/Awards, Essays, etc.)</li><li data-block-key=\"3i55p\">Midterm Reports may or may not be required by schools you apply to (<b>self-reported</b>)</li><li data-block-key=\"dvaul\">Application Fee (can be waived by school specific or Common App waivers)</li><li data-block-key=\"2jmar\">Ex. Being in TRIO makes the entire application free!</li></ul>",
+        "id": "3a20c5d9-f64f-4f27-8b25-0b8362044501"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Privates Can be Cheaper than Publics",
+    "tag": "transfer",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"e2res\">More specifically, if you can get into an elite private university, it can be MUCH MUCH cheaper than attending a public university. A lot of students see the $60,000-$70,000 sticker price of the school and believe that it will be that expensive. But, this is not right. And I believe that <b>you</b> can make it, getting into the school and the financial aid that comes with it.</p><p data-block-key=\"abrdv\">This is not the only school with similar financial aid (in fact almost all of the elite privates and I am saying <b>elite</b>, not just a random private school), but I think this gives you an idea of how the financial aid works: my quote is \u201cStanford thinks you are a poor unfortunate soul if you make less than $150,000.\u201d They provide free tuition up to that point and considering the demographic at MJC and other community colleges, this should be the vast majority of students. Other schools like Vanderbilt, Pomona, USC, etc. can also provide comparable levels of financial aid. Free tuition, room and board, and additional expenses will be things that the privates attempt to cover.</p><p data-block-key=\"f0ubb\">To everyone transferring, know this well: The transfer process is <b>NOT</b> the same as the regular admissions process.</p><p data-block-key=\"2qcag\">The things you choose to talk about in essays are different, some prompts are different, your experiences are different, and your experiences are different, so do not treat it as merely the second coming of the first-year admission process. It\u2019s not.</p><p data-block-key=\"842cm\">A clear example of this which is unbelievably confusing is that for the common app, there is no limit to activities you can put for the transfer common app, unlike the UC application and the first-year common app. Many things similar to this are a part of the transfer experience. The goal of this post is to provide you with the awareness and information you need to not be stranded.</p><p data-block-key=\"aimb8\">There are<b> need-aware</b> elite private schools, to many students&#x27; unhappiness. However, just be aware that this means that if you need financial aid, it will be harder for you to get into the schools, even though if you get in you will likely still get your financial needs met.</p>",
+        "id": "d0d5fd6d-17f1-411b-8096-00c0d0792815"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Private Essays",
+    "tag": "transfer",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"mxmbk\"><b>DO NOT WRITE ABOUT MENTAL HEALTH issues!</b> Specifically, do not write about <b>YOU</b> being depressed. You can technically talk about helping <b>OTHERS</b> deal with mental health (even if you received that knowledge through therapy of your own, which you should not mention). Regardless, mental health is a big no-no topic. Also, no matter how you feel about this reality, it is well-known within the \u201cadmissions world\u201d that this is a bad idea and there are reasons beyond stigma regarding why it lowers your admission chances. There are various reasons why this is the case and if you are interested feel free to research them, but I am just warning you.</p>",
+        "id": "f5d0ae93-51df-4e29-865b-03a057c78e35"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "IGETC and Assist.org",
+    "tag": "transfer",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"9oob9\">According to the UCs, IGETC is &quot;a series of courses that California community college students can complete to satisfy most freshman/sophomore-level general education requirements before transferring to UC.&quot;</p><p data-block-key=\"3hvdo\"><a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/general-education-igetc/igetc/#:~:text=What&#x27;s%20IGETC%3F,requirements%20before%20transferring%20to%20UC.\">UC IGETC Page</a></p><p data-block-key=\"d0g08\"></p><p data-block-key=\"8q8c4\">However, majors such &quot;<b>engineering or the biological, physical and natural sciences do not recommend IGETC.</b>&quot; If your counselor says to you to do IGETC, but it would result in you taking 3 years to transfer, ask for a second opinion.</p><p data-block-key=\"6d8s9\"><a href=\"https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/preparing-to-transfer/general-education-igetc/#:~:text=Some%20majors%20like%20engineering%20or,before%20completing%20general%20education%20courses.\">UC IGETC Page for Engineering...</a></p>",
+        "id": "b71705f8-7e62-4de8-8600-44f1079a847c"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "BIO-101 Exam 1 Study Guide",
+    "tag": "BIO-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 39,
+        "id": "8968d577-1d3c-454d-9346-6e1dcf0e5a36"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "BIO-101 Exam 2 Study Guide",
+    "tag": "BIO-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 38,
+        "id": "8f765c81-a62b-4be1-abc4-fe47ca771414"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "BIO-101 Exam 3 Study Guide",
+    "tag": "BIO-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 37,
+        "id": "850807b2-cf15-4ba7-9683-c6855b7a2d2c"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "BIO-101 Exam 4 Study Guide",
+    "tag": "BIO-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 36,
+        "id": "d8a077c7-d5c1-4cfc-8453-4b2cda36facc"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "BIO-101 Final Exam Study Guide",
+    "tag": "BIO-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 35,
+        "id": "9a6ec32d-2917-4198-9f8b-bbb67b06278c"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "BIO-101 Lab Practicum Study Guide",
+    "tag": "BIO-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 34,
+        "id": "2eb7c689-4807-4e9a-bc2b-ed5247670945"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Deadlines and MJC Scholarship",
+    "tag": "miscellaneous",
+    "author": "---",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 11,
+        "id": "7d0f9534-817d-4b7b-a7d0-9e39394cccc6"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"j77k3\">MJC has a good scholarship program. It is a single application and it allows you to be considered for various scholarships. For the term 2023-2024, it was due January 31st.</p><p data-block-key=\"feiqn\"></p><p data-block-key=\"1654a\">Additional Deadlines:</p><ol><li data-block-key=\"7tjk7\">November 30: UC Application Deadline will be at the end of November of the year.</li><li data-block-key=\"4dond\">February/March: Private Universities on Common App generally have a deadline of next year in February or March.</li><li data-block-key=\"5a0ep\">January 9 for 2024: SULI Deadline <a href=\"https://science.osti.gov/wdts/suli/Key-Dates\">https://science.osti.gov/wdts/suli/Key-Dates</a></li><li data-block-key=\"djlvn\">January to March: REU</li></ol>",
+        "id": "d23186a7-7f28-45db-89d6-71114fa987e1"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "BOT-101 Exam Study Guide",
+    "tag": "BOT-101",
+    "author": "Priyanka Pal",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 103,
+        "id": "78ae3602-43ba-4d2e-8ebc-450fa375e10a"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "BOT-101 Lab Practicum Study Guide",
+    "tag": "BOT-101",
+    "author": "Priyanka Pal",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 102,
+        "id": "f16dddbe-f870-4a48-a28a-c2ded4d129c5"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "BOT-101 Final Exam Study Guide",
+    "tag": "BOT-101",
+    "author": "Priyanka Pal",
+    "published_date": "2024-02-19",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 41,
+        "id": "11750738-6706-4b93-a298-4168297d45d4"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Calculus III Exam 1 Review Notes",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-21",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 51,
+        "id": "3bdce8e1-1465-4c82-a715-bf67340bf096"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Calculus III Exam 1",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 44,
+        "id": "7a4f4034-dda7-4c5c-8517-e6e91c2a670f"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Calculus III Exam 2 Review Notes",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 52,
+        "id": "35076ede-a39f-47b7-923d-31bc9f39c615"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Calculus III Exam 2 Study Guide",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 50,
+        "id": "3a32e895-ad5b-4c78-a777-aeb3ba04562b"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Calculus III Exam 2",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 49,
+        "id": "68502a33-ba05-44ce-b3a1-86e6ea0387f0"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Calculus III Exam 3 Review Notes",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 48,
+        "id": "d954188d-1084-4db1-a66d-edd85078a076"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Calculus III Exam 3 Study Guide",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 43,
+        "id": "d97d8540-47ec-462f-a61f-e1189d5e2d97"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Chem 101 Exam 1 Practice Test Joseph Caddell",
+    "tag": "CHEM-101",
+    "author": "Manuel Martinez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 53,
+        "id": "1c6f55cd-0654-498d-adf6-77db63efdb7d"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Calculus III Exam 3",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 45,
+        "id": "406d32ac-2234-4fbc-9d5e-a5798b6d53b8"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Chem 101 Exam 2 Practice Test Joseph Caddell",
+    "tag": "CHEM-101",
+    "author": "Manuel Martinez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 54,
+        "id": "1c27fe7a-ffa8-440d-bb09-74e52a611207"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Calculus III Exam 4 Study Guide",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 47,
+        "id": "ad6429df-b8a6-4cb4-80cb-9851fb63d261"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Chem 101 Exam 3 Practice Test Joseph Caddell",
+    "tag": "CHEM-101",
+    "author": "Manuel Martinez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 55,
+        "id": "3573d6df-34fc-44c7-ad7d-7873abbd3751"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Calculus III Exam 4",
+    "tag": "MATH-173",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 46,
+        "id": "f873a4cd-b2b3-4e83-8104-aafb82170043"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Chem 101 Comprehensive Review Joseph Caddell",
+    "tag": "CHEM-101",
+    "author": "Manuel Martinez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 56,
+        "id": "915bc333-a112-407c-833e-fa11a1f3e16e"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Calculus II Exam 1",
+    "tag": "MATH-172",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 63,
+        "id": "77307a34-66aa-4cd9-aa25-f9cc455abc30"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Calculus II Chapter 7 Review Notes",
+    "tag": "MATH-172",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 29,
+        "id": "4492cef1-d30f-4b07-b3ff-3abc28fb4f48"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Calculus II Exam 2",
+    "tag": "MATH-172",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 65,
+        "id": "a958f70e-8aa2-46af-a3bb-b3d281255d8d"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Calculus II Chapter 8 Review Notes",
+    "tag": "MATH-172",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 24,
+        "id": "0162cc54-63ba-42a0-815f-6442d3cc9b1a"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Calculus II Chapter 11 Review Notes",
+    "tag": "MATH-172",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 64,
+        "id": "82195abd-6c7d-406c-ad6d-a314ffb98749"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Calculus II Exam 3",
+    "tag": "MATH-172",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 64,
+        "id": "d5be4257-71dd-412c-b517-f45009d841b8"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Calculus I Exam 1",
+    "tag": "MATH-171",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 62,
+        "id": "03639042-757f-4cf9-94fd-ea65a022e624"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Calculus I Exam 2",
+    "tag": "MATH-171",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 61,
+        "id": "6547273c-c316-4268-a03c-ad39ff8662cc"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Calculus I Exam 3",
+    "tag": "MATH-171",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 60,
+        "id": "6ae9f8f2-cdbe-4d28-964f-0e56e3d789df"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Trigonometry Exam 1",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 57,
+        "id": "e493259a-1b6d-4f40-948a-092eb3cd0805"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Trigonometry Exam 2",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 58,
+        "id": "87c68afa-82f0-4bd9-adb5-5f34f4074340"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Trigonometry Exam 3",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 59,
+        "id": "29c912a5-6024-4c3d-a5fe-78e999f798a9"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Zoo101 Revised Catalog David Martin",
+    "tag": "ZOOL-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 99,
+        "id": "22692e2e-cf83-49ae-ad40-3636bdcc799c"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Zoo101 Revised Journal Template David Martin",
+    "tag": "ZOOL-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 100,
+        "id": "dfd710f5-cd77-435b-9c08-947560d0b91e"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Precalculus Exam 1",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 66,
+        "id": "46a0fd2f-525b-4887-be66-eacbd8165578"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Precalculus Exam 2",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 67,
+        "id": "f2980cac-594a-4094-9d02-3b5bb1fa5fc4"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Zoo101 Sample Insect Collection David Martin",
+    "tag": "ZOOL-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 98,
+        "id": "1de6bef7-4e28-4f5a-adc2-72ee94bb27aa"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Precalculus Exam 3",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 68,
+        "id": "31e948a2-d636-4fe4-9293-3219d08938f6"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Physics I Exam 1 Practice Test",
+    "tag": "PHYS-101",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 77,
+        "id": "ee77a83a-4ba5-4f0c-9a12-66cd15c0320f"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Zoo101 Sample Research Paper Outline David Martin",
+    "tag": "ZOOL-101",
+    "author": "Henry Li",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 101,
+        "id": "12ada202-ca83-4ac6-9808-ec3581765157"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Physics I Exam 2 Practice Test",
+    "tag": "PHYS-101",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 78,
+        "id": "09d1d62c-a959-493b-8d87-7833f00ff172"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Physics I Exam 2 Practice Test (Answers)",
+    "tag": "PHYS-101",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 76,
+        "id": "5c196df3-1cf0-47dc-93b8-79c4aa7a6773"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Physics I Exam 3 Practice Test",
+    "tag": "PHYS-101",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 74,
+        "id": "0d16531c-07b7-4569-8bbc-29ac4e0080c0"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Physics I Exam 3 Practice Test (Answers)",
+    "tag": "PHYS-101",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 75,
+        "id": "46be6c37-43df-406c-8df4-551bb8e4a091"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Physics II Exam 1 Formula Sheet",
+    "tag": "PHYS-102",
+    "author": "Kyle Zheng",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 83,
+        "id": "11d6537a-a38c-4015-bbed-ad806c5d8362"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Physics II Exam 2 Formula Sheet",
+    "tag": "PHYS-102",
+    "author": "Kyle Zheng",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 82,
+        "id": "6731f04a-855c-40ff-b66a-1888ed591fbc"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Physics II Exam 3 Formula Sheet",
+    "tag": "PHYS-102",
+    "author": "Kyle Zheng",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 84,
+        "id": "c42d12f3-7d36-46bb-9ff9-2e09c5308c3f"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Physics II Final Exam Formula Sheet",
+    "tag": "PHYS-102",
+    "author": "Harven Dhanota",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 80,
+        "id": "3da09dbf-9b76-4840-8c4e-d06cd7e8a069"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Physics II Comprehensive Review Sheet",
+    "tag": "PHYS-102",
+    "author": "Kyle Zheng",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 81,
+        "id": "8236679c-f4d8-4ccc-ad8a-36c2cd604b83"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Physics III Exam 1 Practice Test",
+    "tag": "PHYS-103",
+    "author": "Harven Dhanota & Abdul Ahad",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 134,
+        "id": "008b4ec9-2e68-40a2-81e9-f3396387c9e7"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Physics III Exam 1 Formula Sheet",
+    "tag": "PHYS-103",
+    "author": "Kyle Zheng",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 85,
+        "id": "e655e086-ccef-47f0-8bbe-62eb2774ee67"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Miscellaneous Extracurriculars/Opportunities and Things New Students Can Undertake",
+    "tag": "miscellaneous",
+    "author": "---",
+    "published_date": "2024-02-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "image",
+        "value": 12,
+        "id": "54e66a68-5cd3-4ec9-b5b4-fbe8de506bbb"
+      },
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"03utk\">Depending on your major and your interests, you may find some of these opportunities more useful than others. These are possible extracurriculars you can <b>start</b>, meaning they do not yet \u201cexist\u201d at MJC or do not have some normalized structure.</p><ol><li data-block-key=\"biv9r\">Publish a book through Amazon Kindle: free opportunity</li><li data-block-key=\"c1tm1\">Write and publish a web novel on Webnovel and Inkstone: free opportunity</li><li data-block-key=\"fn1lt\">Starting a SolveCC Challenge and Creating an Organization as a Byproduct</li><li data-block-key=\"72gsc\">Start a chapter of national professional organizations, preferably within an existing MJC club<ol><li data-block-key=\"d1a18\">Electrical Engineering, Computer Science: IEEE Chapter</li><li data-block-key=\"8j0jo\">Computer Science: ACM Chapter</li><li data-block-key=\"el5tn\">Affinity: Asian American Student Union</li><li data-block-key=\"6k5he\">Community College Honors Society and GPA based: PTK Honors</li><li data-block-key=\"c8omc\">Pre-med Students: AMSCA</li><li data-block-key=\"2eh2d\">Additional Student Clubs and Organizations: <a href=\"https://study.com/resources/student-clubs-and-organizations\">https://study.com/resources/student-clubs-and-organizations</a></li></ol></li></ol><p data-block-key=\"82hgk\">You might wonder why you should start an organization, or why a national one.</p><p data-block-key=\"4peh9\">Well, it\u2019s because:</p><p data-block-key=\"cffns\">1) it demonstrates an entrepreneurial spirit</p><p data-block-key=\"dgnm7\">2) gives you the benefit of a national name (like ACM, PTK Honors)</p><p data-block-key=\"e5bgd\">3) has well-known criteria which quietly speak about your ability to start a chapter for something like AMSCA</p>",
+        "id": "330990a6-a5c4-4f33-aec0-1acd7ca04015"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Trigonometry Final Exam",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-25",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 94,
+        "id": "842445b1-29df-4791-8212-67bc13ca1bd7"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Precalculus Final Exam",
+    "tag": "MATH-161",
+    "author": "Luis Nunez",
+    "published_date": "2024-02-25",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 96,
+        "id": "9e90faf1-eb6a-4e3e-8183-c2c1bc101c0a"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Chem 102 Exam 1 Practice Test Joseph Caddell",
+    "tag": "CHEM-102",
+    "author": "Manuel Martinez",
+    "published_date": "2024-03-25",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 104,
+        "id": "4ace10f9-9d1f-48ff-b111-7afe70bfefae"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Chem 102 Exam 2 Practice Test Joseph Caddell",
+    "tag": "CHEM-102",
+    "author": "Manuel Martinez",
+    "published_date": "2024-03-25",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 106,
+        "id": "8776abf0-ebc7-45ac-8599-04ea304aea17"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Chem 102 Comprehensive Review Joseph Caddell",
+    "tag": "CHEM-102",
+    "author": "Manuel Martinez",
+    "published_date": "2024-03-25",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 105,
+        "id": "82cc2757-965b-4e13-938f-e5b8e8b64871"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Chem 102 Exam 3 Practice Test Joseph Caddell",
+    "tag": "CHEM-102",
+    "author": "Manuel Martinez",
+    "published_date": "2024-04-23",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 107,
+        "id": "e743124e-0ce4-4128-840b-fda2bd2e0fad"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "PHYS-165: Introductory Physics",
+    "tag": "PHYS-165",
+    "author": "Abdul Ahad",
+    "published_date": "2024-04-26",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"i8bda\">This course covers scientific measurement, dimensional analysis, kinematics, dynamics, and an introduction to electromagnetism.</p>",
+        "id": "d645ddda-bba4-4f05-95c6-2bef412f139b"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Physics 165 Practice Exam 1 - Nomof",
+    "tag": "PHYS-165",
+    "author": "Abdul Ahad",
+    "published_date": "2024-04-26",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 108,
+        "id": "a5db996f-3e20-4d76-934c-15ac43e1fbc4"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Physics 165 Practice Exam 2 - Nomof",
+    "tag": "PHYS-165",
+    "author": "Abdul Ahad",
+    "published_date": "2024-04-26",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 109,
+        "id": "43e8394f-a2c9-414d-a4ad-2fce57d08f54"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Physics 165 Exam 2 Key - Nomof",
+    "tag": "PHYS-165",
+    "author": "Abdul Ahad",
+    "published_date": "2024-04-26",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 110,
+        "id": "7161efc8-ed85-4771-8784-7bb5c2e5da74"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Physics 165 Practice Exam 3 - Nomof",
+    "tag": "PHYS-165",
+    "author": "Abdul Ahad",
+    "published_date": "2024-04-26",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 113,
+        "id": "683d1afe-387e-409c-8acc-13900e9ac46c"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Physics 165 Practice Exam 3 Key - Nomof",
+    "tag": "PHYS-165",
+    "author": "Abdul Ahad",
+    "published_date": "2024-04-26",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 114,
+        "id": "e4d5a3d3-5fba-4459-b4b2-ac7154dbd80e"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Physics 165 Practice Final Exam - Nomof",
+    "tag": "PHYS-165",
+    "author": "Abdul Ahad",
+    "published_date": "2024-04-29",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 115,
+        "id": "504eb249-f760-4b74-894d-2dfbaece4426"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Math 191 Final Exam",
+    "tag": "MATH-191",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 122,
+        "id": "c7e4b8f1-2a88-42c3-a97b-f8550f87bd25"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Math 191 Final Exam Key",
+    "tag": "MATH-191",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 123,
+        "id": "16348c76-7427-444f-9cfa-e904074f01d8"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Math 191 Exam 1",
+    "tag": "MATH-191",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 124,
+        "id": "8c9f1acb-e0c2-445b-83f4-e8b5c51e4772"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Math 191 Exam 1 Key",
+    "tag": "MATH-191",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 125,
+        "id": "e2f0cd10-9514-4499-a760-b0bc12728851"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Math 191 Exam 2",
+    "tag": "MATH-191",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 126,
+        "id": "8579962c-e792-49b3-acc1-7066b1e487be"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Math-191 Exam 2 Key",
+    "tag": "MATH-191",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 127,
+        "id": "b083f1d6-1a19-4a5c-a695-1d2a793b5af1"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "ODE Exam 1",
+    "tag": "MATH-193",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 128,
+        "id": "050b513d-a931-453d-a03e-905016f0378b"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "ODE Exam 1 Key",
+    "tag": "MATH-193",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 129,
+        "id": "e8f7ed34-6e98-4e07-9b7b-3d1ac6ea1b6e"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "ODE Exam 2",
+    "tag": "MATH-193",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 130,
+        "id": "9bdced41-3d5b-43fa-9df7-caf2d1dcf884"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "ODE Exam 2 Key",
+    "tag": "MATH-193",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 131,
+        "id": "b6099cfe-4bec-4a25-92c8-32ae1cab6c61"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "ODE Final Exam Key",
+    "tag": "MATH-193",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 133,
+        "id": "e4c5ddd8-ee50-4a5e-9327-915881d59826"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "ODE Final Exam",
+    "tag": "MATH-193",
+    "author": "Renny Joshua Maniquis",
+    "published_date": "2025-05-12",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "document",
+        "value": 132,
+        "id": "dc53e336-a60f-42d6-b5f4-929ab76d2721"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "ENGR-141: Circuits",
+    "tag": "ENGR-141",
+    "author": "Abdul Ahad",
+    "published_date": "2025-12-25",
+    "legacy_type": "core.ContentBlock",
+    "body": [
+      {
+        "type": "paragraph",
+        "value": "<p data-block-key=\"k2fo0\">This course covers basic circuit analysis, electrical components, kirchhoff&#x27;s laws, AC circuits, and various circuit analysis theorems.</p>",
+        "id": "e96ec8fc-999b-40ba-9f7b-eea0f512a91f"
+      }
+    ]
+  }
+]

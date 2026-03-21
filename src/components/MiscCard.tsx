@@ -128,7 +128,7 @@ const MiscCard: React.FC<number> = ({ id }) => {
         <MathJaxContext config={config}>
           <animated.div
             ref={ref}
-            className="bg-white text-gray-800 max-w-3xl mx-auto my-8 p-8 rounded-lg shadow-lg"
+            className="growth-surface text-gray-900 max-w-3xl mx-auto my-8 p-8 rounded-2xl"
             style={{
               transform: props.xys.interpolate(
                 (x, y, s) =>
@@ -153,12 +153,14 @@ const MiscCard: React.FC<number> = ({ id }) => {
               ))}
             </div>
             <div className="text-left font-body">
-              <h1 className="text-xl font-bold mb-2 font-times">
+              <h1 className="text-xl font-bold mb-2 font-heading">
                 {cardProps?.title}
               </h1>
-              <p className="text-sm font-bold mb-4 font-accent">
-                {`${cardProps?.author} - ${cardProps?.date}`}
-              </p>
+              {cardProps?.author && (
+                <p className="text-sm font-bold mb-4 font-accent">
+                  {cardProps?.author}
+                </p>
+              )}
               {/* Render each block */}
               {cardProps?.body.map((block: any, index: number) => (
                 <React.Fragment key={index}>

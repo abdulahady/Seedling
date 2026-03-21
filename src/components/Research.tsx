@@ -49,27 +49,39 @@ const Research = () => {
   }
 
   return (
-    <>
-      <div id="row" className="flex flex-wrap justify-around w-full">
-        <div id="leftCol" className=" w-full xl:w-1/3 px-2">
+    <div className="research-article-layout">
+      <section className="growth-surface rounded-3xl px-6 py-8 md:px-10 mb-8 text-left">
+        <p className="font-accent text-sm tracking-[0.16em] uppercase text-emerald-700 mb-2">
+          Undergraduate Research
+        </p>
+        <h1 className="font-heading text-4xl md:text-5xl text-emerald-950 mb-4">
+          Research Playbook
+        </h1>
+        <p className="font-body text-lg text-emerald-900/90 max-w-3xl">
+          A curated, article-style guide to finding research mentors, preparing
+          outreach, and building a strong path from first contact to active lab
+          involvement.
+        </p>
+      </section>
+
+      <div id="row" className="flex flex-col items-center w-full gap-6">
+        <div id="leftCol" className="w-full max-w-4xl">
           <MiscCard id="25" />
         </div>
-        <div id="middleCol" className="w-full xl:w-1/3 px-2">
+        <div id="middleCol" className="w-full max-w-4xl">
           <MiscCard id="27" />
         </div>
-        <div id="rightCol" className="w-full xl:w-1/3 px-2">
+        <div id="rightCol" className="w-full max-w-4xl">
           <MiscCard id="36" />
         </div>
-      </div>
-      <div id="row" className="flex flex-wrap justify-around w-full ">
-        <div id="leftCol" className="w-full xl:w-1/3 px-2">
+        <div id="leftCol" className="w-full max-w-4xl">
           <MiscCard id="37" />
         </div>
-        <div id="middleCol" className="w-full xl:w-1/3 px-2">
+        <div id="middleCol" className="w-full max-w-4xl">
           <MiscCard id="38" />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

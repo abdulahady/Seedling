@@ -1,4 +1,5 @@
-import { Link, Route, Routes } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { Link, Route, Routes, useLocation } from 'react-router-dom'
 import Home from './Home'
 import Curriculum from './Curriculum'
 import Miscellaneous from './Miscellaneous'
@@ -6,16 +7,38 @@ import Research from './Research'
 import Transfer from './Transfer'
 
 const Navbar = () => {
+  const location = useLocation()
+  const [scrolledPastHero, setScrolledPastHero] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolledPastHero(window.scrollY > 420)
+    }
+
+    handleScroll()
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const isHome = location.pathname === '/'
+  const useTransparentNav = isHome && !scrolledPastHero
+
   return (
     <>
       <>
-        <div className="navbar bg-base-100 flex justify-evenly items-center w-full top-0 left-0 lg:px-20  z-50">
+        <div
+          className={`navbar sticky top-0 flex justify-evenly items-center w-full left-0 lg:px-20 z-50 mb-4 transition-all duration-300 ${
+            useTransparentNav
+              ? 'bg-transparent border border-transparent shadow-none backdrop-blur-sm'
+              : 'growth-surface'
+          }`}
+        >
           <div className="navbar-start  lg:justify-start flex justify-around items-center w-full">
             <div className="dropdown mr-100px">
               <div
                 tabIndex={0}
                 role="button"
-                className="btn  btn-ghost margin lg:hidden"
+                className="btn btn-ghost margin lg:hidden rounded-full"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +57,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52 border border-emerald-100 font-accent"
               >
                 <li>
                   <Link to="/transfer">Transfer</Link>
@@ -50,7 +73,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost text-xl lg:text-center hidden md:unhidden :block">
+            <a className="btn btn-ghost text-xl lg:text-center hidden md:unhidden :block text-emerald-900 font-heading tracking-wide">
               Seedling Education
             </a>
 
@@ -76,21 +99,21 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
-              <li className="font-accent">
+            <ul className="menu menu-horizontal px-1 text-emerald-900">
+              <li className="font-accent font-semibold hover:text-emerald-700">
                 <Link to="/transfer">Transfer</Link>
               </li>
-              <li className="font-accent">
+              <li className="font-accent font-semibold hover:text-emerald-700">
                 <Link to="/curriculum/*">Curriculum</Link>
               </li>
-              <li className="font-accent">
+              <li className="font-accent font-semibold hover:text-emerald-700">
                 <Link to="/research">Research (UG)</Link>
               </li>
-              <li className="font-accent">
+              <li className="font-accent font-semibold hover:text-emerald-700">
                 <Link to="/miscellaneous">Miscellaneous</Link>
               </li>
             </ul>
-            <button className="btn btn-ghost btn-circle ">
+            <button className="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"

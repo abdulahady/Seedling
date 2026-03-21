@@ -79,9 +79,7 @@ const Card: React.FC<CardProps> = ({ title, subtitle, author, date, body }) => {
         <div className="text-center mb-4">
           <h1 className="text-3xl font-bold mb-2">{title}</h1>
           <h2 className="text-xl font-semibold">{subtitle}</h2>
-          <p className="text-md mb-4">
-            {author} - {date}
-          </p>
+          {author && <p className="text-md mb-4">{author}</p>}
         </div>
         <div className="text-left">
           <p>{body}</p>

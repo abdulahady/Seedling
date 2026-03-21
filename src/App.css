@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  max-width: 1320px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
@@ -20,6 +20,11 @@
 
 body {
   font-family: charter;
+  background:
+    radial-gradient(circle at top left, rgba(126, 217, 87, 0.34), transparent 48%),
+    radial-gradient(circle at bottom right, rgba(53, 197, 120, 0.3), transparent 48%),
+    linear-gradient(180deg, #f2fced 0%, #e5f8de 100%);
+  color: #173a2b;
 }
 br {
   display: block !important;
@@ -54,24 +59,24 @@ p {
 }
 /* Unvisited links */
 a:link {
-  color: #006442; /* Change to your preferred color */
+  color: #0f7a44;
   text-decoration: none; /* Removes underline, add if you prefer */
 }
 
 /* Visited links */
 a:visited {
-  color: #006442; /* Change to your preferred color */
+  color: #0f7a44;
 }
 
 /* Mouse over links */
 a:hover {
-  color: #006442; /* Change to your preferred color */
+  color: #0f5c35;
   text-decoration: underline; /* Adds underline on hover */
 }
 
 /* Selected links */
 a:active {
-  color: yellow; /* Change to your preferred color */
+  color: #98d44f;
 }
 
 .logo {
@@ -121,6 +126,11 @@ a:active {
   position: relative;
   cursor: pointer; /* Indicates the card is clickable */
   margin-bottom: 5rem; /* Space between cards */
+  border-radius: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(1px);
 }
 
 .card-container.expanded {
@@ -134,5 +144,43 @@ a:active {
   left: 0;
   right: 0;
   height: 60px; /* Height of the fade effect */
-  background: linear-gradient(to bottom, transparent, white);
+  background: linear-gradient(to bottom, transparent, #f4fbf5);
+}
+
+.growth-surface {
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.08);
+}
+
+.hero-bloom::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(132, 204, 22, 0.2), transparent 34%),
+    radial-gradient(circle at 85% 32%, rgba(16, 185, 129, 0.2), transparent 32%);
+  pointer-events: none;
+}
+
+.research-article-layout .card-container {
+  max-height: none;
+  margin-bottom: 1.25rem;
+  border-radius: 22px;
+}
+
+.research-article-layout .card-container .content {
+  text-align: left;
+}
+
+.research-article-layout .card-container h1 {
+  font-size: clamp(1.85rem, 2.7vw, 2.35rem);
+  line-height: 1.25;
+  margin-bottom: 0.85rem;
+}
+
+.research-article-layout .card-container .font-body {
+  font-size: 1.06rem;
+  line-height: 1.8;
 }

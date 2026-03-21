@@ -71,12 +71,27 @@ export function Classes() {
     return <LoadingScreen />
   }
 
+  const fallbackId = id ? parseInt(id, 10) : null
+  const hasValidFallback = Number.isInteger(fallbackId) && fallbackId > 0
+
   return (
     <div id="top-of-page">
-      {idList.length > 0 && <StaticCard id={idList[0]} />}
-      {idList
-        ?.filter((itemId) => itemId !== idList[0])
-        .map((itemId) => <Accordion key={itemId} id={itemId} />)}
+      {idList.length > 0 ? (
+        <>
+          <StaticCard id={idList[0]} />
+          {idList
+            ?.filter((itemId) => itemId !== idList[0])
+            .map((itemId) => <Accordion key={itemId} id={itemId} />)}
+        </>
+      ) : hasValidFallback ? (
+        <StaticCard id={fallbackId} />
+      ) : (
+        <div className="growth-surface p-6 text-left">
+          <h2 className="font-heading text-2xl text-emerald-900">
+            No class content found yet
+          </h2>
+        </div>
+      )}
     </div>
   )
 }

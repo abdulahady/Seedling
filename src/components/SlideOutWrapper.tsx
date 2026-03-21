@@ -61,9 +61,12 @@ const SlideOutWrapper: React.FC<SlideOutWrapperProps> = ({ children }) => {
                         : breakpoint === '2xl'
                           ? '21%'
                           : '21%' // New value for 3xl breakpoint
-        },0,0)`
-      : 'translate3d(-5%,0,0)',
-    config: { duration: 700 },
+        },0,0) scale(1)`
+      : 'translate3d(-5%,0,0) scale(0.96)',
+    boxShadow: isVisible
+      ? '0 14px 32px rgba(16, 120, 60, 0.2)'
+      : '0 0 0 rgba(16, 120, 60, 0)',
+    config: { tension: 230, friction: 20, mass: 1 },
   })
 
   useEffect(() => {
@@ -74,8 +77,8 @@ const SlideOutWrapper: React.FC<SlideOutWrapperProps> = ({ children }) => {
         })
       },
       {
-        rootMargin: '-20% 0px -60% 0px',
-        threshold: [0, 0.5, 1],
+        rootMargin: '-12% 0px -48% 0px',
+        threshold: [0.2, 0.45, 0.75],
       },
     )
 

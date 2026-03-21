@@ -19,9 +19,9 @@ export default {
         charter: ['Charter'],
         times: ['Times New Roman', 'serif'],
         franklin: ['Franklin Gothic', 'Arial', 'sans-serif'],
-        body: ['Merriweather', 'serif'],
-        heading: ['Open Sans', 'sans-serif'],
-        accent: ['Roboto Condensed', 'sans-serif'],
+        body: ['Nunito Sans', 'Merriweather', 'serif'],
+        heading: ['DM Serif Display', 'Times New Roman', 'serif'],
+        accent: ['Quicksand', 'Roboto Condensed', 'sans-serif'],
       },
       boxShadow: {
         'top-bottom':
@@ -30,7 +30,7 @@ export default {
     },
   },
   daisyui: {
-    themes: ['lofi'],
+    themes: ['garden'],
   },
   plugins: [require('daisyui'), require('preline/plugin')],
 }
