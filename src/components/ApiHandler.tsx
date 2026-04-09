@@ -42,9 +42,15 @@ interface ApiResponse {
   data: Page
 }
 
-const pageRequestCache = new Map<any, Promise<any>>()
+const pageRequestCache = new Map<number, Promise<any>>()
 const tagRequestCache = new Map<any, Promise<any>>()
 let hasStartedTabPreload = false
+
+/** JSON ids and route params can be string or number; cache must use one shape. */
+function normalizePageCacheKey(id: unknown): number | null {
+  const n = typeof id === 'number' ? id : Number(id)
+  return Number.isFinite(n) ? n : null
+}
 
 /** Wagtail /api/v2 often returns an object { id, title, … }; Supabase uses a bare id. */
 function parseMediaBlockId(value: unknown): number | null {
@@ -71,8 +77,7 @@ function parseMediaBlockId(value: unknown): number | null {
 const handleImage = async (id) => {
   try {
     const response = await api.get(`/images/${id}/`)
-    // Assuming the URL is directly accessible in the response, adjust based on actual API structure
-    return response.data.meta.download_url // Or whatever field holds the URL
+    return response.data?.meta?.download_url ?? null
   } catch (error) {
     console.error('Error fetching image: ', error)
     return null
@@ -84,8 +89,7 @@ const handleImage = async (id) => {
 const handleDocument = async (id) => {
   try {
     const response = await api.get(`/documents/${id}/`)
-    // Adjust the field access as needed based on your API's response structure
-    return response.data.meta.download_url // Adjust this path to wherever the document URL is stored
+    return response.data?.meta?.download_url ?? null
   } catch (error) {
     console.error('Error fetching document: ', error)
     return null
@@ -97,20 +101,34 @@ const handleDocument = async (id) => {
 // if the page doesn't have a document and/or image
 const ApiHandler = {
   apiFetchPage: async (id) => {
-    if (!pageRequestCache.has(id)) {
+    const cacheKey = normalizePageCacheKey(id)
+    if (cacheKey === null) {
+      return Promise.reject(new Error(`apiFetchPage: invalid page id: ${id}`))
+    }
+
+    if (!pageRequestCache.has(cacheKey)) {
       const request = (async () => {
         try {
           // Define the type of content block to fetch, in this case
           // 'core.ContentBlock' is the page type
           const type = 'core.ContentBlock'
-          // Fetch page data
-          const response = await api.get(`/pages/${id}/`)
+          // Fetch page data (always use numeric id in URL)
+          const response = await api.get(`/pages/${cacheKey}/`)
           const pageData = response.data
 
-          // Check if pageData.body exists
-          if (!pageData?.body) {
-            console.log('<ApiHandler.tsx> apiFetchPage no body in pageData')
-            return
+          // Never return undefined (that used to poison the cache for all later readers).
+          if (!pageData || !Array.isArray(pageData.body)) {
+            console.warn(
+              '<ApiHandler.tsx> apiFetchPage missing body; returning empty stream',
+              cacheKey,
+            )
+            return {
+              ...(typeof pageData === 'object' && pageData ? pageData : {}),
+              id: cacheKey,
+              body: [],
+              documentUrls: [],
+              imageUrls: [],
+            }
           }
 
           // Filter and map image IDs from pageData.body
@@ -180,16 +198,16 @@ const ApiHandler = {
 
           return enrichedPageData
         } catch (error) {
-          pageRequestCache.delete(id)
+          pageRequestCache.delete(cacheKey)
           console.error('apiFetchPage: Error fetching data: ', error)
           throw error
         }
       })()
 
-      pageRequestCache.set(id, request)
+      pageRequestCache.set(cacheKey, request)
     }
 
-    return pageRequestCache.get(id)
+    return pageRequestCache.get(cacheKey)
   },
   // Fetch all the page data at the /pages endpoint
   apiFetchPages: async () => {
@@ -328,7 +346,7 @@ const ApiHandler = {
         new Set([...staticPageIds, ...idsFromTags]),
       )
       await Promise.allSettled(
-        pageIdsToWarm.map((id) => ApiHandler.apiFetchPage(id)),
+        pageIdsToWarm.map((id) => ApiHandler.apiFetchPage(Number(id))),
       )
       console.log('<ApiHandler.tsx> preloadTabsData warmed tab data')
     } catch (error) {

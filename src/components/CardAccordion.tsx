@@ -8,7 +8,7 @@ const CardAccordion: React.FC<number> = ({ id }) => {
   // grab the data from the API
   const fetchData = async (pageID) => {
     try {
-      const data = await ApiHandler.apiFetchPage(pageID)
+      const data = await ApiHandler.apiFetchPage(Number(pageID))
       console.log('<Accordian.tsx> The Data for the Accordian is: ', data)
       setCardProps(data)
     } catch (error) {

@@ -35,7 +35,7 @@ const StaticCard: React.FC<number> = ({ id }) => {
   const fetchData = async (pageID) => {
     try {
       setLoading(true)
-      const data = await ApiHandler.apiFetchPage(pageID)
+      const data = await ApiHandler.apiFetchPage(Number(pageID))
       console.log('<StaticCard.tsx> The Data is: ', data)
       setCardProps(data)
     } catch (error) {

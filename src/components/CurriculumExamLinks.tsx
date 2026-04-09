@@ -2,25 +2,50 @@ import React, { useEffect, useState } from 'react'
 import ApiHandler from './ApiHandler'
 import { labelFromFileUrl } from '../utils/fileLabel'
 
+/** Prefer top-level documentUrls; fall back to URLs on enriched stream blocks. */
+function documentUrlsForDisplay(data: any): string[] {
+  const top = (
+    Array.isArray(data?.documentUrls) ? data.documentUrls : []
+  ).filter((u: unknown) => typeof u === 'string' && u.length > 0) as string[]
+  if (top.length > 0) {
+    return top
+  }
+  const body = Array.isArray(data?.body) ? data.body : []
+  return body
+    .filter(
+      (b: any) => b?.type === 'document' && typeof b?.url === 'string' && b.url,
+    )
+    .map((b: any) => b.url as string)
+}
+
 function ExamLinkRow({ pageId }: { pageId: number }) {
   const [data, setData] = useState<any>(null)
 
   useEffect(() => {
     let cancelled = false
-    ApiHandler.apiFetchPage(pageId).then((d) => {
-      if (!cancelled) {
-        setData(d)
-      }
-    })
+    const id = Number(pageId)
+    ApiHandler.apiFetchPage(id)
+      .then((d) => {
+        if (!cancelled) {
+          setData(d ?? null)
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setData({
+            title: 'Could not load this page',
+            documentUrls: [],
+            body: [],
+          })
+        }
+      })
     return () => {
       cancelled = true
     }
   }, [pageId])
 
   const title = data?.title || 'Loading…'
-  const urls = (
-    Array.isArray(data?.documentUrls) ? data.documentUrls : []
-  ).filter(Boolean) as string[]
+  const urls = data ? documentUrlsForDisplay(data) : []
 
   return (
     <div className="flex justify-center w-full w-30 lg-w-100">

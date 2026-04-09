@@ -20,7 +20,7 @@ export function Classes() {
       console.log('<Classes.tsx> The ID list is: ', list)
       // Warm page cache so StaticCard / exam links load quickly.
       await Promise.allSettled(
-        list.map((itemId) => ApiHandler.apiFetchPage(itemId)),
+        list.map((itemId) => ApiHandler.apiFetchPage(Number(itemId))),
       )
       setIdList(list)
       setLoading(false)
@@ -82,7 +82,9 @@ export function Classes() {
         <>
           <StaticCard id={idList[0]} />
           <CurriculumExamLinks
-            pageIds={idList.filter((itemId) => itemId !== idList[0])}
+            pageIds={idList
+              .filter((itemId) => itemId !== idList[0])
+              .map((x) => Number(x))}
           />
         </>
       ) : hasValidFallback ? (
