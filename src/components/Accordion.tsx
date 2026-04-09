@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import ApiHandler from './ApiHandler'
-import StaticCard from './StaticCard'
 
 const Accordion: React.FC<number> = ({ id }) => {
   const [cardProps, setCardProps] = useState()

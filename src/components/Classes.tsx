@@ -1,10 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useLocation, useParams } from 'react-router-dom'
-import Accordion from './Accordion'
-import AnimatedCard from './AnimatedCard'
+import { CurriculumExamLinks } from './CurriculumExamLinks'
 import ApiHandler from './ApiHandler'
 import LoadingScreen from './LoadingScreen'
-import Sidebar from './Sidebar'
 import StaticCard from './StaticCard'
 
 export function Classes() {
@@ -20,7 +18,7 @@ export function Classes() {
       const response = await ApiHandler.apiFetchTag(tag)
       const list = response?.map((item) => item.id) || []
       console.log('<Classes.tsx> The ID list is: ', list)
-      // Warm page cache so StaticCard/Accordion mounts feel instant.
+      // Warm page cache so StaticCard / exam links load quickly.
       await Promise.allSettled(
         list.map((itemId) => ApiHandler.apiFetchPage(itemId)),
       )
@@ -83,9 +81,9 @@ export function Classes() {
       {idList.length > 0 ? (
         <>
           <StaticCard id={idList[0]} />
-          {idList
-            ?.filter((itemId) => itemId !== idList[0])
-            .map((itemId) => <Accordion key={itemId} id={itemId} />)}
+          <CurriculumExamLinks
+            pageIds={idList.filter((itemId) => itemId !== idList[0])}
+          />
         </>
       ) : hasValidFallback ? (
         <StaticCard id={fallbackId} />

@@ -66,9 +66,11 @@ export function TimelinePages() {
   return (
     <div id="top-of-page">
       <StaticCard id={parseInt(id, 10)} />
-      {idList
-        ?.filter((itemId) => itemId !== idList[0])
-        .map((itemId) => <Accordion key={itemId} id={itemId} />)}
+      <div id="curriculum-exams">
+        {idList
+          ?.filter((itemId) => itemId !== idList[0])
+          .map((itemId) => <Accordion key={itemId} id={itemId} />)}
+      </div>
     </div>
   )
 }

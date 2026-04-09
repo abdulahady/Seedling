@@ -20,6 +20,12 @@ def _normalize_block(block_row: dict) -> dict:
         value = block_value
         children = None
 
+    # StreamField may store only a PK, or a dict like {"id": n} if imported from API-shaped JSON.
+    if block_type in {"document", "image"} and isinstance(value, dict):
+        pk = value.get("id")
+        if pk is not None:
+            value = pk
+
     block = {"type": block_type, "value": value}
     if children is not None:
         block["children"] = children

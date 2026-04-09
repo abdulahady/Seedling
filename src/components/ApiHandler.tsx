@@ -1,13 +1,30 @@
 // Import axios to make HTTP requests
 import axios from 'axios'
 
+// Default to v3 (Supabase-backed) API; production has legacy Wagtail v2 disabled.
+// Set VITE_USE_SUPABASE_BACKEND=false only if your backend exposes /api/v2 with documents.
 const useSupabaseBackend =
-  String(import.meta.env.VITE_USE_SUPABASE_BACKEND || '').toLowerCase() ===
-  'true'
-const defaultBaseUrl = useSupabaseBackend
-  ? 'https://seedlingbackend-production.up.railway.app/api/v3'
-  : 'https://seedlingbackend-production.up.railway.app/api/v2'
-const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || defaultBaseUrl
+  String(import.meta.env.VITE_USE_SUPABASE_BACKEND || '').toLowerCase() !==
+  'false'
+
+const publicV3Base = 'https://api.seedlingeducation.org/api/v3'
+const publicV2Base = 'https://api.seedlingeducation.org/api/v2'
+
+function resolveApiBaseUrl(): string {
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return import.meta.env.VITE_API_BASE_URL
+  }
+  if (import.meta.env.DEV) {
+    // Same-origin + vite proxy avoids CORS (API only allows seedlingeducation.org).
+    return useSupabaseBackend ? '/api/v3' : '/api/v2'
+  }
+  if (!useSupabaseBackend) {
+    return publicV2Base
+  }
+  return publicV3Base
+}
+
+const apiBaseUrl = resolveApiBaseUrl()
 
 // Create an axios instance with predefined base URL and headers
 const api = axios.create({
@@ -28,6 +45,26 @@ interface ApiResponse {
 const pageRequestCache = new Map<any, Promise<any>>()
 const tagRequestCache = new Map<any, Promise<any>>()
 let hasStartedTabPreload = false
+
+/** Wagtail /api/v2 often returns an object { id, title, … }; Supabase uses a bare id. */
+function parseMediaBlockId(value: unknown): number | null {
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return value
+  }
+  if (typeof value === 'string' && /^\d+$/.test(value)) {
+    return parseInt(value, 10)
+  }
+  if (value && typeof value === 'object' && 'id' in value) {
+    const id = (value as { id: unknown }).id
+    if (typeof id === 'number' && Number.isFinite(id)) {
+      return id
+    }
+    if (typeof id === 'string' && /^\d+$/.test(id)) {
+      return parseInt(id, 10)
+    }
+  }
+  return null
+}
 
 // Function to fetch image data based on the provided ID (Value from pages maps
 // to the ID of the image or document)
@@ -79,12 +116,14 @@ const ApiHandler = {
           // Filter and map image IDs from pageData.body
           const imageIds = pageData.body
             .filter((item: any) => item.type === 'image')
-            .map((item: any) => item.value)
+            .map((item: any) => parseMediaBlockId(item.value))
+            .filter((id: number | null): id is number => id != null)
 
           // Filter and map document IDs from pageData.body
           const documentIds = pageData.body
             .filter((item: any) => item.type === 'document')
-            .map((item: any) => item.value)
+            .map((item: any) => parseMediaBlockId(item.value))
+            .filter((id: number | null): id is number => id != null)
 
           // Process image/document IDs concurrently to reduce fetch time
           const [imageUrls, documentUrls] = await Promise.all([
@@ -96,6 +135,20 @@ const ApiHandler = {
 
           const safeImageUrls = imageUrls.filter(Boolean)
           const safeDocumentUrls = documentUrls.filter(Boolean)
+
+          let imageOrdinal = 0
+          let documentOrdinal = 0
+          const enrichedBody = pageData.body.map((block: any) => {
+            if (block.type === 'image') {
+              const url = imageUrls[imageOrdinal++] ?? null
+              return url ? { ...block, url } : { ...block }
+            }
+            if (block.type === 'document') {
+              const url = documentUrls[documentOrdinal++] ?? null
+              return url ? { ...block, url } : { ...block }
+            }
+            return block
+          })
 
           if (imageIds.length > 0) {
             console.log(
@@ -120,6 +173,7 @@ const ApiHandler = {
           // Enrich the original page data with the fetched URLs
           const enrichedPageData = {
             ...pageData,
+            body: enrichedBody,
             imageUrls: safeImageUrls,
             documentUrls: safeDocumentUrls,
           }

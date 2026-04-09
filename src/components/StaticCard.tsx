@@ -7,6 +7,7 @@ import { useSpring, animated } from 'react-spring'
 import { MathJax, MathJaxContext } from 'better-react-mathjax'
 import ApiHandler from './ApiHandler'
 import LoadingScreen from './LoadingScreen'
+import { renderStreamBlock } from './StreamBlock'
 
 const config = {
   loader: { load: ['input/asciimath', 'output/chtml'] },
@@ -17,6 +18,13 @@ declare global {
   interface Window {
     MathJax: any // You can replace 'any' with a more specific type if available
   }
+}
+
+/** Put intro text before images when CMS order is image-first (e.g. Calc III hub). */
+function bodyWithTextBeforeImages(body: any[]): any[] {
+  const nonImage = body.filter((b) => b?.type !== 'image')
+  const images = body.filter((b) => b?.type === 'image')
+  return [...nonImage, ...images]
 }
 
 const StaticCard: React.FC<number> = ({ id }) => {
@@ -37,21 +45,6 @@ const StaticCard: React.FC<number> = ({ id }) => {
     }
   }
 
-  const renderBlock = (block: any) => {
-    switch (block.type) {
-      case 'math':
-        return <MathJax>{block.value}</MathJax>
-      case 'paragraph':
-        return <p dangerouslySetInnerHTML={{ __html: block.value }} />
-      case 'list-item':
-        return <li dangerouslySetInnerHTML={{ __html: block.value }} />
-      case 'unordered-list':
-        return <ul>{block.children.map(renderBlock)}</ul>
-      // Handle other types as needed
-      default:
-        return null
-    }
-  }
   useEffect(() => {
     fetchData(id)
     console.log('<StaticCard.tsx> The Card Props are: ', cardProps)
@@ -87,25 +80,13 @@ const StaticCard: React.FC<number> = ({ id }) => {
           )}
         </div>
         <div className="text-left font-body text-lg">
-          {/* Render each block */}
-          {(Array.isArray(cardProps?.body) ? cardProps.body : []).map(
-            (block: any, index: number) => (
-              <React.Fragment key={index}>{renderBlock(block)}</React.Fragment>
-            ),
-          )}
-        </div>
-        <div>
-          <div>
-            {cardProps?.imageUrls.map((imageUrl, index) => (
-              <img key={index} src={imageUrl} alt="" />
-            ))}
-            {/* Iterate over enriched document URLs if they exist */}
-            {cardProps?.documentUrls.map((documentUrl, index) => (
-              <a key={index} href={documentUrl}>
-                View Document
-              </a>
-            ))}
-          </div>
+          {bodyWithTextBeforeImages(
+            Array.isArray(cardProps?.body) ? cardProps.body : [],
+          ).map((block: any, index: number) => (
+            <React.Fragment key={index}>
+              {renderStreamBlock(block)}
+            </React.Fragment>
+          ))}
         </div>
       </animated.div>
     </MathJaxContext>

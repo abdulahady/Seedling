@@ -23,7 +23,7 @@ const Sidebar = () => {
             <a href="#top-of-page">Top</a>
           </li>
           <li>
-            <a href="#accordian">Topic</a>
+            <a href="#curriculum-exams">Topic</a>
           </li>
         </ul>
       </div>

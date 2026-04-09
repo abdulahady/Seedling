@@ -6,6 +6,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useSpring, animated } from 'react-spring'
 import { MathJax, MathJaxContext } from 'better-react-mathjax'
 import ApiHandler from './ApiHandler'
+import { renderStreamBlock } from './StreamBlock'
 
 const config = {
   loader: { load: ['input/asciimath', 'output/chtml'] },
@@ -46,28 +47,10 @@ const AnimatedCard: React.FC<number> = ({ id }) => {
     }
   }
 
-  const renderBlock = (block: any) => {
-    switch (block.type) {
-      case 'math':
-        return <MathJax>{block.value}</MathJax>
-      case 'paragraph':
-        return <p dangerouslySetInnerHTML={{ __html: block.value }} />
-      case 'list-item':
-        return <li dangerouslySetInnerHTML={{ __html: block.value }} />
-      case 'unordered-list':
-        return <ul>{block.children.map(renderBlock)}</ul>
-      // Handle other types as needed
-      default:
-        return null
-    }
-  }
   useEffect(() => {
     fetchData(id)
     console.log('<AnimatedCard.tsx> The Card Props are: ', cardProps)
-    if (cardProps?.body) {
-      renderBlock(cardProps.body)
-    }
-  }, [])
+  }, [id])
 
   const ref = useRef<HTMLDivElement>(null)
   const [opacity, setOpacity] = useSpring(() => ({ value: 0 }))
@@ -130,23 +113,13 @@ const AnimatedCard: React.FC<number> = ({ id }) => {
           )}
         </div>
         <div className="text-left text-md font-body md:text-lg">
-          {/* Render each block */}
-          {cardProps?.body.map((block: any, index: number) => (
-            <React.Fragment key={index}>{renderBlock(block)}</React.Fragment>
-          ))}
-        </div>
-        <div>
-          <div>
-            {cardProps?.imageUrls.map((imageUrl, index) => (
-              <img key={index} src={imageUrl} alt="" />
-            ))}
-            {/* Iterate over enriched document URLs if they exist */}
-            {cardProps?.documentUrls.map((documentUrl, index) => (
-              <a key={index} href={documentUrl}>
-                View Document
-              </a>
-            ))}
-          </div>
+          {(Array.isArray(cardProps?.body) ? cardProps.body : []).map(
+            (block: any, index: number) => (
+              <React.Fragment key={index}>
+                {renderStreamBlock(block)}
+              </React.Fragment>
+            ),
+          )}
         </div>
       </animated.div>
     </MathJaxContext>
